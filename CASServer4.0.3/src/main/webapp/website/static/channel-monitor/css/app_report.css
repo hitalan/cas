@@ -1,0 +1,37 @@
+/*这里定义了顶部的样式 top-introduction*/
+th,td{
+    line-height: 30px;
+    text-align: center;
+    border:#D3D3D3 solid 1px;
+}
+table{
+    margin:10px 0;
+    width: 100%;
+}
+#logo{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+.top_introduction th:first-child{
+    width: 60px;
+}
+.top_introduction th{
+    min-width:100px ;
+}
+.top_introduction td{
+    text-indent: 15px;
+    text-align: left;
+}
+
+/*这里定义中间部分的四个table:middle-introduction*/
+.middle_introduction{
+    margin-top: 20px;
+}
+.middle_introduction th{
+    width: 25%;
+}
+
+.middle_action{
+    background-color:#99EBEE;
+}

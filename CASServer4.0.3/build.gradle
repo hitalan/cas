@@ -1,0 +1,104 @@
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'eclipse-wtp'
+apply plugin: 'jetty'
+
+// JDK 7
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+dependencies {
+def springVersion = '3.2.6.RELEASE'
+    compile "org.springframework:spring-jdbc:${springVersion}"
+    compile "org.springframework:spring-core:${springVersion}"
+    compile "org.springframework:spring-beans:${springVersion}"
+    compile "org.springframework:spring-context:${springVersion}"
+    compile "org.springframework:spring-context-support:${springVersion}"
+    compile "org.springframework:spring-web:${springVersion}"
+    compile "org.springframework:spring-webmvc:${springVersion}"
+    compile "org.springframework:spring-instrument:${springVersion}"
+    compile "org.springframework:spring-jms:${springVersion}"
+    compile "org.springframework:spring-oxm:${springVersion}"
+    compile "org.springframework:spring-test:${springVersion}"
+    compile "org.springframework:spring-tx:${springVersion}"
+    compile "org.springframework:spring-webmvc-portlet:${springVersion}"
+    compile 'org.springframework.webflow:spring-webflow:2.2.1.RELEASE'
+def casVersion = '4.0.3'
+	compile "org.jasig.cas:cas-server-core:${casVersion}"
+	compile "org.jasig.cas:cas-server-webapp:${casVersion}"
+    compile "org.jasig.cas:cas-server-support-generic:${casVersion}"
+    compile "org.jasig.cas:cas-server-support-jdbc:${casVersion}"
+    compile "org.jasig.cas:cas-server:${casVersion}"
+    compile 'org.jasig.cas:cas-server-security-filter:2.0.4'
+	compile 'javax.servlet:jstl:1.2'
+    compile 'javax.mail:mail:1.4.1'
+    compile 'javax.activation:activation:1.1'
+    compile 'antlr:antlr:2.7.7'
+    compile 'aopalliance:aopalliance:1.0'
+    compile 'org.aspectj:aspectjrt:1.7.2'
+    compile 'commons-dbcp:commons-dbcp:1.2.2'
+    compile 'commons-logging:commons-logging:1.1.1'
+    compile 'commons-pool:commons-pool:1.5.3'
+    compile 'commons-fileupload:commons-fileupload:1.2.2'
+    compile 'commons-io:commons-io:2.0'
+    compile 'log4j:log4j:1.2.15'
+    compile 'taglibs:standard:1.1.2'
+    compile 'org.aspectj:aspectjweaver:1.6.8'
+    compile 'junit:junit:4.7'
+    compile 'mysql:mysql-connector-java:5.1.32'
+    compile 'org.slf4j:slf4j-api:1.7.5'
+    compile 'org.slf4j:slf4j-log4j12:1.7.5'   
+    compile 'org.apache.tiles:tiles-core:3.0.5'
+    compile 'org.apache.tiles:tiles-jsp:3.0.5'
+    compile 'org.apache.tiles:tiles-api:3.0.5'
+    compile 'org.apache.tiles:tiles-servlet:3.0.5'
+    compile 'org.apache.tiles:tiles-template:3.0.5'
+    compile 'org.apache.tiles:tiles-request-api:1.0.6'
+    compile 'org.apache.tiles:tiles-el:3.0.5'
+    compile 'org.apache.tiles:tiles-compat:3.0.5'
+    compile 'org.apache.tiles:tiles-extras:3.0.5'
+    compile 'org.apache.tiles:tiles-ognl:3.0.5'
+    compile 'org.apache.tiles:tiles-request-servlet:1.0.6'
+    compile 'org.apache.tiles:tiles-portlet:2.2.2'
+    compile 'org.apache.tiles:tiles-velocity:3.0.5'
+    compile 'org.apache.tiles:tiles-mvel:3.0.5'
+    compile 'org.apache.tiles:tiles-freemarker:3.0.5'
+    compile 'org.apache.tiles:tiles-request-servlet-wildcard:1.0.6'
+    compile 'org.apache.tiles:tiles-autotag-core:1.1.0'
+    compile 'com.sun.faces:jsf-api:2.2.12'
+    compile 'com.sun.faces:jsf-impl:2.2.12'
+    compile 'org.opensaml:opensaml:1.1'
+    providedCompile 'javax.servlet:javax.servlet-api:3.0.1'
+}
+
+// Embeded Jetty for testing
+jettyRun{
+	contextPath = "CASServer4.0.3"
+	httpPort = 8080
+}
+
+jettyRunWar{
+	contextPath = "CASServer4.0.3"
+	httpPort = 8080
+}
+
+//For Eclipse IDE only
+eclipse {
+
+  wtp {
+    component {
+      
+      //define context path, default to project folder name
+      contextPath = 'CASServer4.0.3'
+      
+    }
+    
+  }
+}
+

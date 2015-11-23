@@ -1,0 +1,53 @@
+*{
+    border:0;
+}
+.slick-slide img,.select-now img{
+    border:5px solid #FFF;
+    display:block;
+    width:60px;
+}
+.slick-slide img.slick-loading{
+    border:0 ;
+}
+
+.select-app button{
+    background: #2DC3E8;
+    border-radius: 50%;
+}
+
+.widget-mian{
+    min-height: 60px;
+}
+.select-app{
+    height: 80px;
+    width: 500px;
+    margin: 0 20px;
+}
+.select-app img{
+    cursor: pointer;
+    padding: 5px;
+}
+.slick-slide img:hover{
+    width: 61px;
+    padding: 2px;
+}
+.slick-dots{
+    position: static;
+}
+
+.select-right ul{
+    list-style: none;
+}
+.select-right > ul li{
+    margin: 20px;
+    float: left;
+}
+
+.btn-themeprimary{
+    color: white;
+    background: #2DC3E8;
+}
+
+.select-now{
+    line-height: 60px;
+}

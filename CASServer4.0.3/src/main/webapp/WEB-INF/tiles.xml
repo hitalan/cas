@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name="template" template="/WEB-INF/view/jsp/share/template.jsp">
+		<put-attribute name="title" value="Tiles tutorial homepage" />
+		<put-attribute name='header' value="/WEB-INF/view/jsp/share/header.jsp" />
+		<put-attribute name="navheader" value="/WEB-INF/view/jsp/share/navheader.jsp"/>
+		<put-attribute name="navsider" value="/WEB-INF/view/jsp/share/navsider.jsp"/>
+		<put-attribute name="body" value="" />
+	</definition>
+
+
+ 	 <definition name="login" template="/WEB-INF/view/jsp/share/login_nav.jsp">
+		<put-attribute name="title" value="登陆界面"/>
+		<put-attribute name='header' value="/WEB-INF/view/jsp/share/header.jsp" />
+		<put-attribute name="body" value="/WEB-INF/view/jsp/login.jsp"/>
+	</definition>
+
+	<definition name="registerEmail" template="/WEB-INF/view/jsp/share/login_nav.jsp">
+		<put-attribute name="title" value="邮箱确认"/>
+		<put-attribute name='header' value="/WEB-INF/view/jsp/share/header.jsp" />
+		<put-attribute name="body" value="/WEB-INF/view/jsp/registerEmail.jsp"/>
+	</definition>
+
+	<definition name="addDetailInfo" template="/WEB-INF/view/jsp/share/login_nav.jsp">
+		<put-attribute name="title" value="用户信息填写"/>
+		<put-attribute name='header' value="/WEB-INF/view/jsp/share/header.jsp" />
+		<put-attribute name="body" value="/WEB-INF/view/jsp/addDetailInfo.jsp"/>
+	</definition>
+
+	<definition name="registerSuccess" template="/WEB-INF/view/jsp/share/login_nav.jsp">
+		<put-attribute name="title" value="完成注册"/>
+		<put-attribute name='header' value="/WEB-INF/view/jsp/share/header.jsp" />
+		<put-attribute name="body" value="/WEB-INF/view/jsp/registerSuccess.jsp"/>
+	</definition>
+
+	<definition name="forgetPassword" template="/WEB-INF/view/jsp/share/login_nav.jsp">
+		<put-attribute name="title" value="忘记密码"/>
+		<put-attribute name='header' value="/WEB-INF/view/jsp/share/header.jsp"/>
+		<put-attribute name="body" value="/WEB-INF/view/jsp/forgetPassword.jsp"/>
+	</definition>
+
+	<definition name="forgetPasswordByEmail" template="/WEB-INF/view/jsp/share/login_nav.jsp">
+		<put-attribute name="title" value="邮件发送"/>
+		<put-attribute name='header' value="/WEB-INF/view/jsp/share/header.jsp"/>
+		<put-attribute name="body" value="/WEB-INF/view/jsp/forgetPasswordByEmail.jsp"/>
+	</definition>
+
+	<definition name="forget_password_chooseway" template="/WEB-INF/view/jsp/share/login_nav.jsp">
+		<put-attribute name="title" value="密码重置方式"/>
+		<put-attribute name='header' value="/WEB-INF/view/jsp/share/header.jsp"/>
+		<put-attribute name="body" value="/WEB-INF/view/jsp/chooseFindWay.jsp"/>
+	</definition>
+
+	<definition name="newPassword" template="/WEB-INF/view/jsp/share/login_nav.jsp">
+		<put-attribute name="title" value="密码重置"/>
+		<put-attribute name='header' value="/WEB-INF/view/jsp/share/header.jsp"/>
+		<put-attribute name="body" value="/WEB-INF/view/jsp/newPassword.jsp"/>
+	</definition>
+
+	<definition name="changePasswordSuccess" template="/WEB-INF/view/jsp/share/login_nav.jsp">
+		<put-attribute name="title" value="操作完成"/>
+		<put-attribute name='header' value="/WEB-INF/view/jsp/share/header.jsp"/>
+		<put-attribute name="body" value="/WEB-INF/view/jsp/changePasswordSuccess.jsp"/>
+	</definition>
+
+
+	<definition name="register" template="/WEB-INF/view/jsp/share/login_nav.jsp">
+		<put-attribute name="title" value="注册界面"/>
+		<put-attribute name='header' value="/WEB-INF/view/jsp/share/header.jsp" />
+		<put-attribute name="body" value="/WEB-INF/view/jsp/register.jsp"/>
+	</definition>
+
+
+	<definition name="update_password" extends="template">
+		<put-attribute name="title" value="密码修改"/>
+		<put-attribute name="body" value="/WEB-INF/view/jsp/update_password.jsp"/>
+	</definition>
+</tiles-definitions>

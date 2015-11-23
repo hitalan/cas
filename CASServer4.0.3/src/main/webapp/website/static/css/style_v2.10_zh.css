@@ -1,0 +1,193 @@
+/**login and register css */
+.sub_header sub {
+	TEXT-INDENT: -999em; 
+	WIDTH: 324px; 
+	DISPLAY: block; 
+	//BACKGROUND: url("logo_subtitle.png")/*tpa=http://www.bangcle.com/static/images_v2.10/logo_subtitle.png*/ no-repeat right bottom; 
+	FLOAT: left; 
+	height: 35px;
+    padding: 5px 0 6px 10px;
+}
+.content {
+	MARGIN: 0px auto; WIDTH: 980px
+}
+.message {
+	PADDING-BOTTOM: 6px; LINE-HEIGHT: 20px; PADDING-LEFT: 32px; PADDING-RIGHT: 15px; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; PADDING-TOP: 6px; border-radius: 3px 3px 3px 3px
+}
+.message A {
+	MARGIN: 0px 2px; TEXT-DECORATION: underline
+}
+.message_error {
+	BORDER-BOTTOM: #e9c59b 1px solid; BORDER-LEFT: #e9c59b 1px solid; BACKGROUND: url("message_error-1.gif")/*tpa=http://www.bangcle.com/static/images_v2.10/message_error.gif*/ #ffecce no-repeat 8px 9px; BORDER-TOP: #e9c59b 1px solid; BORDER-RIGHT: #e9c59b 1px solid
+}
+.message_success {
+	BORDER-BOTTOM: #bfde84 1px solid; BORDER-LEFT: #bfde84 1px solid; BACKGROUND: url("message_success-1.gif")/*tpa=http://www.bangcle.com/static/images_v2.10/message_success.gif*/ #edfbd8 no-repeat 8px 9px; BORDER-TOP: #bfde84 1px solid; BORDER-RIGHT: #bfde84 1px solid
+}
+.message_info {
+	BORDER-BOTTOM: #bbdbe0 1px solid; BORDER-LEFT: #bbdbe0 1px solid; BACKGROUND: url("message_info-1.gif")/*tpa=http://www.bangcle.com/static/images_v2.10/message_info.gif*/ #ecf9ff no-repeat 8px 9px; BORDER-TOP: #bbdbe0 1px solid; BORDER-RIGHT: #bbdbe0 1px solid
+}
+.message_warning {
+	BORDER-BOTTOM: #e5e181 1px solid; BORDER-LEFT: #e5e181 1px solid; BACKGROUND: url("message_warning-1.gif")/*tpa=http://www.bangcle.com/static/images_v2.10/message_warning.gif*/ #fefde2 no-repeat 8px 9px; BORDER-TOP: #e5e181 1px solid; BORDER-RIGHT: #e5e181 1px solid
+}
+.cut {
+	WIDTH: 100%; TEXT-OVERFLOW: ellipsis; ZOOM: 1; DISPLAY: inline-block; WHITE-SPACE: nowrap; VERTICAL-ALIGN: middle; OVERFLOW: hidden
+}
+SELECT {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 4px
+}
+.input_text {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 2px; LINE-HEIGHT: 25px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 2px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 2px; BACKGROUND: url("input_text_bg-1.png")/*tpa=http://www.bangcle.com/static/images_v2.10/input_text_bg.png*/ #fff repeat-x; HEIGHT: 25px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 2px
+}
+TEXTAREA {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 2px; LINE-HEIGHT: 25px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 2px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 2px; BACKGROUND: url("input_text_bg-1.png")/*tpa=http://www.bangcle.com/static/images_v2.10/input_text_bg.png*/ #fff repeat-x; HEIGHT: 25px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 2px
+}
+.input_text:focus {
+	BORDER-BOTTOM: #4d90fe 1px solid; BORDER-LEFT: #4d90fe 1px solid; BORDER-TOP: #4d90fe 1px solid; BORDER-RIGHT: #4d90fe 1px solid
+}
+TEXTAREA:focus {
+	BORDER-BOTTOM: #4d90fe 1px solid; BORDER-LEFT: #4d90fe 1px solid; BORDER-TOP: #4d90fe 1px solid; BORDER-RIGHT: #4d90fe 1px solid
+}
+INPUT.error_tips {
+	BORDER-BOTTOM: #dd4b39 1px solid; BORDER-LEFT: #dd4b39 1px solid; BACKGROUND: #fbe3e4; BORDER-TOP: #dd4b39 1px solid; BORDER-RIGHT: #dd4b39 1px solid
+}
+TEXTAREA.error_tips {
+	BORDER-BOTTOM: #dd4b39 1px solid; BORDER-LEFT: #dd4b39 1px solid; BACKGROUND: #fbe3e4; BORDER-TOP: #dd4b39 1px solid; BORDER-RIGHT: #dd4b39 1px solid
+}
+SPAN.attention {
+	DISPLAY: block; COLOR: #999; PADDING-TOP: 4px
+}
+SPAN.error_tips {
+	DISPLAY: block; COLOR: #c00; PADDING-TOP: 4px
+}
+.login_wp {
+	MARGIN-BOTTOM: 20px
+}
+.register_wp {
+	MARGIN-BOTTOM: 20px
+}
+.login_banner {
+	BACKGROUND: url("login_banner_zh.jpg")/*tpa=http://www.bangcle.com/static/images_v2.10/login_banner_zh.jpg*/ no-repeat left center; 
+	FLOAT: left; 
+	HEIGHT: 400px;
+	margin-left: -10px;
+	margin-top: -1px;
+	width: 571px;
+}
+.login_mod, .register_mod{
+	BORDER-BOTTOM: #d5d5d5 1px solid; 
+	BORDER-LEFT: #d5d5d5 1px solid; 
+	PADDING-BOTTOM: 10px; 
+	BACKGROUND-COLOR: #fff; 
+	PADDING-LEFT: 0px; 
+	WIDTH: 380px; 
+	PADDING-RIGHT: 0px; 
+	FLOAT: right; 
+	BORDER-TOP: #d5d5d5 1px solid; 
+	BORDER-RIGHT: #d5d5d5 1px solid; 
+	PADDING-TOP: 10px;
+	margin-top:65px;
+}
+.login_mod H3 {
+	LINE-HEIGHT: 35px; MARGIN: 0px 10px 10px; HEIGHT: 35px; COLOR: #1369ac; FONT-SIZE: 24px
+}
+.login_mod H3 SPAN {
+	PADDING-LEFT: 10px; COLOR: #ccc; FONT-SIZE: 12px
+}
+.login_mod .message {
+	MARGIN: 0px 10px
+}
+.login_mod UL {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 20px
+}
+.login_mod LI {
+	POSITION: relative; PADDING-BOTTOM: 10px; MIN-HEIGHT: 35px; PADDING-LEFT: 80px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.login_mod LI STRONG {
+	POSITION: absolute; TEXT-ALIGN: right; LINE-HEIGHT: 30px; WIDTH: 70px; HEIGHT: 30px; TOP: 0px; FONT-WEIGHT: bold; LEFT: 0px
+}
+.login_mod LI .input_text {
+	WIDTH: 238px
+}
+.login_mod LI.check_code .input_text {
+	WIDTH: 100px !important; FLOAT: left; MARGIN-RIGHT: 8px
+}
+.login_mod LI.check_code A {
+	DISPLAY: inline-block; TEXT-DECORATION: none
+}
+.login_mod LI.check_code A IMG {
+	VERTICAL-ALIGN: top; MARGIN-RIGHT: 4px
+}
+.login_mod LI.check_code A EM {
+	VERTICAL-ALIGN: -8px; CURSOR: pointer
+}
+.login_mod LI.auto_login {
+	PADDING-BOTTOM: 0px; MIN-HEIGHT: 22px
+}
+.login_mod LI.auto_login INPUT {
+	VERTICAL-ALIGN: -2px; MARGIN-RIGHT: 2px
+}
+.login_mod LI.button {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 45px; PADDING-LEFT: 80px; PADDING-RIGHT: 0px; HEIGHT: 45px; PADDING-TOP: 8px
+}
+.login_mod LI.button BUTTON {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; TEXT-INDENT: -999em; WIDTH: 140px; DISPLAY: block; BACKGROUND: url("button_bg1.png")/*tpa=http://www.bangcle.com/static/images_v2.10/button_bg1.png*/ no-repeat; FLOAT: left; HEIGHT: 43px; BORDER-TOP: medium none; MARGIN-RIGHT: 2em; BORDER-RIGHT: medium none
+}
+.login_mod LI.button BUTTON:hover {
+	opacity: 0.8
+}
+.register_banner {
+	BACKGROUND: url("reg_banner.jpg") no-repeat left center;
+	FLOAT: left; 
+	HEIGHT: 400px;
+	margin-left: -10px;
+    margin-top: 26px;
+    width: 571px;
+}
+.register_mod H3 {
+	LINE-HEIGHT: 35px; MARGIN: 0px 10px 10px; HEIGHT: 35px; COLOR: #1369ac; FONT-SIZE: 24px
+}
+.register_mod H3 SPAN {
+	PADDING-LEFT: 10px; COLOR: #ccc; FONT-SIZE: 12px
+}
+.register_mod .message {
+	MARGIN: 0px 10px
+}
+.register_mod UL {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 20px
+}
+.register_mod LI {
+	POSITION: relative; PADDING-BOTTOM: 10px; MIN-HEIGHT: 35px; PADDING-LEFT: 80px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.register_mod LI STRONG {
+	POSITION: absolute; TEXT-ALIGN: right; LINE-HEIGHT: 30px; WIDTH: 70px; HEIGHT: 30px; TOP: 0px; FONT-WEIGHT: bold; LEFT: 0px
+}
+.register_mod LI .input_text {
+	WIDTH: 238px
+}
+.register_mod LI.button {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 45px; PADDING-LEFT: 80px; PADDING-RIGHT: 0px; HEIGHT: 45px; PADDING-TOP: 8px
+}
+.register_mod LI.button BUTTON {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; TEXT-INDENT: -999em; WIDTH: 140px; DISPLAY: block; BACKGROUND: url("button_bg1.png")/*tpa=http://www.bangcle.com/static/images_v2.10/button_bg1.png*/ no-repeat left bottom; FLOAT: left; HEIGHT: 43px; BORDER-TOP: medium none; MARGIN-RIGHT: 2em; BORDER-RIGHT: medium none
+}
+.register_mod LI.button BUTTON:hover {
+	opacity: 0.8
+}
+.login_other {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; HEIGHT: 75px; BORDER-TOP: #d5d5d5 1px dashed; PADDING-TOP: 0px
+}
+.login_other STRONG {
+	LINE-HEIGHT: 35px; DISPLAY: block; HEIGHT: 35px; FONT-WEIGHT: bold
+}
+.login_other A {
+	LINE-HEIGHT: 28px; PADDING-LEFT: 32px; DISPLAY: block; FLOAT: left; HEIGHT: 28px; MARGIN-RIGHT: 20px
+}
+.login_other A.login_qq {
+	BACKGROUND: url("open_login.png")/*tpa=http://www.bangcle.com/static/images_v2.10/open_login.png*/ no-repeat 0px 2px
+}
+.login_other A.login_sina {
+	BACKGROUND: url("open_login.png")/*tpa=http://www.bangcle.com/static/images_v2.10/open_login.png*/ no-repeat 0px -28px
+}
+.login_other A.login_tc {
+	BACKGROUND: url("open_login.png")/*tpa=http://www.bangcle.com/static/images_v2.10/open_login.png*/ no-repeat 0px -56px
+}

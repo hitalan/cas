@@ -1,0 +1,158 @@
+.logo{
+    text-align: center;
+}
+.logo img{
+    box-shadow: gray 0 0 8px;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+}
+.login-container .logobox,.register-container .logobox{
+    background:none;
+    border-radius: 5px;
+    height: 80px !important;
+}
+.loginbox{
+    border-radius: 5px;
+}
+.logobox img{
+    width: 100%;
+    height: 100%;
+}
+
+input[type='checkbox']{
+    margin: 2px;
+    width: auto;
+    height: auto;
+    opacity: 1;
+    position: static;
+}
+/*==============start 注册页面======================*/
+.register-container .registerbox,.login-container .loginbox{
+    padding-top: 20px !important;
+    padding-bottom: 50px !important;
+    height: auto !important;
+}
+.registerbox{
+    font-size: 13px;
+    border-radius: 5px;
+}
+.registerbox a{
+    font-size: 13px;
+    color:gray;
+}
+.registerbox-hasuser{
+    margin:10px 20px;
+    font-size: 14px;
+}
+.form-check{
+    width: 45%;
+    float: left;
+}
+.form-check-img{
+    float: right;
+}
+
+.registerbox-hasuser{
+    width: 100%;
+    float: left;
+}
+.registerbox-submit{
+    height: 60px;
+}
+.register-img{
+    border-radius: 5px;
+    width: 50%;
+}
+.registerbox-caption{
+    text-align: center;
+}
+.email-span{
+    text-align: center;
+}
+.email-span p{
+    margin: 15px 0;
+}
+.noReceive{
+    text-align: left;
+}
+#noReceive_email{
+    margin-left: 30px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.noReceive ul{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.noReceive li{
+    padding: 5px;
+    font-size: 13px;
+}
+/*================end 登陆页面=====================*/
+
+
+.loginbox-forgot{
+    margin: 10px 0;
+    float: left;
+}
+.loginbox-forgot input{
+    float: left;
+}
+.loginbox-forgot span{
+    float: left;
+    font-size: 11px;
+}
+.loginbox-forgot a{
+    float: right;
+}
+.login-container .loginbox .loginbox-forgot{
+    line-height: 100%;
+    padding-right: 40px;
+    width: 100%;
+}
+
+/*====================忘记密码页面=====================*/
+
+.bg-none{
+    border: none;
+    box-shadow: none;
+    background: none;
+    font-size: 13px;
+}
+a.accordion-toggle.collapse,.accordion-toggle,.collapsed,.accordion.panel-group .panel-body,.collapse,.panel{
+    border:none !important;
+    background: none !important;
+    color: #000000 !important;
+}
+.widget{
+    margin-bottom: 0px;
+}
+.accordion.panel-group .panel-heading .accordion-toggle{
+    text-align: center;
+    padding: 15px 0;
+    }
+.register-hr{
+    color: #DFDFDF;
+    margin: 0;
+}
+.panel-body{
+    margin-bottom: 20px;
+}
+.panel-body-header{
+    margin-bottom: 20px;
+}
+.panel-body-header span{
+    margin: 0 10px;
+    color: orange;
+    font-weight: bold;
+}
+.panel-body-container{
+    margin: auto;
+    width: 80%;
+}
+.panel-body-container-l{
+    border-radius: 5px !important;
+    width: 200px;
+    margin: 10px auto;
+}

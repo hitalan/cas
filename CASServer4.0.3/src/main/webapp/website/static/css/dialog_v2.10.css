@@ -1,0 +1,347 @@
+.dialog_message {
+	LINE-HEIGHT: 20px; MARGIN: 0px 0px 10px; MIN-HEIGHT: 30px; PADDING-LEFT: 35px; PADDING-TOP: 2px
+}
+.dialog_success {
+	BACKGROUND: url("dialog_icon-1.png")/*tpa=http://www.bangcle.com/static/images_v2.10/dialog_icon.png*/ no-repeat 0px 0px
+}
+.dialog_error {
+	BACKGROUND: url("dialog_icon-1.png")/*tpa=http://www.bangcle.com/static/images_v2.10/dialog_icon.png*/ no-repeat 0px -50px
+}
+.dialog_warning {
+	BACKGROUND: url("dialog_icon-1.png")/*tpa=http://www.bangcle.com/static/images_v2.10/dialog_icon.png*/ no-repeat 0px -100px
+}
+.dialog_help {
+	BACKGROUND: url("dialog_icon-1.png")/*tpa=http://www.bangcle.com/static/images_v2.10/dialog_icon.png*/ no-repeat 0px -150px
+}
+.dialog_info {
+	BACKGROUND: url("dialog_icon-1.png")/*tpa=http://www.bangcle.com/static/images_v2.10/dialog_icon.png*/ no-repeat 0px -200px
+}
+SELECT {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 4px
+}
+.input_text {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 2px; LINE-HEIGHT: 25px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 2px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 2px; BACKGROUND: url("input_text_bg-1.png")/*tpa=http://www.bangcle.com/static/images_v2.10/input_text_bg.png*/ #fff repeat-x; HEIGHT: 25px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 2px
+}
+TEXTAREA {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 2px; LINE-HEIGHT: 25px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 2px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 2px; BACKGROUND: url("input_text_bg-1.png")/*tpa=http://www.bangcle.com/static/images_v2.10/input_text_bg.png*/ #fff repeat-x; HEIGHT: 25px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 2px
+}
+.input_text:focus {
+	BORDER-BOTTOM: #4d90fe 1px solid; BORDER-LEFT: #4d90fe 1px solid; BORDER-TOP: #4d90fe 1px solid; BORDER-RIGHT: #4d90fe 1px solid
+}
+TEXTAREA:focus {
+	BORDER-BOTTOM: #4d90fe 1px solid; BORDER-LEFT: #4d90fe 1px solid; BORDER-TOP: #4d90fe 1px solid; BORDER-RIGHT: #4d90fe 1px solid
+}
+INPUT.error_tips {
+	BORDER-BOTTOM: #dd4b39 1px solid; BORDER-LEFT: #dd4b39 1px solid; BACKGROUND: #fbe3e4; BORDER-TOP: #dd4b39 1px solid; BORDER-RIGHT: #dd4b39 1px solid
+}
+TEXTAREA.error_tips {
+	BORDER-BOTTOM: #dd4b39 1px solid; BORDER-LEFT: #dd4b39 1px solid; BACKGROUND: #fbe3e4; BORDER-TOP: #dd4b39 1px solid; BORDER-RIGHT: #dd4b39 1px solid
+}
+SPAN.attention {
+	DISPLAY: block; COLOR: #999; PADDING-TOP: 4px
+}
+SPAN.error_tips {
+	DISPLAY: block; COLOR: #c00; PADDING-TOP: 4px
+}
+.dialog_wp {
+	Z-INDEX: 9999; POSITION: fixed; WIDTH: 100%; BACKGROUND: url("opacity_bg.png")/*tpa=http://www.bangcle.com/static/images_v2.10/opacity_bg.png*/; HEIGHT: 100%; TOP: 0px; LEFT: 0px
+}
+.dialog_shadow_register_success {
+	Z-INDEX: 99999; POSITION: fixed; PADDING-BOTTOM: 8px; MARGIN: -148px 0px 0px -320px; PADDING-LEFT: 8px; WIDTH: 624px; PADDING-RIGHT: 8px; HEIGHT: 280px; TOP: 50%; PADDING-TOP: 8px; LEFT: 50%
+}
+.dialog_register_success {
+	BORDER-BOTTOM: #d5d5d5 1px solid; POSITION: relative; BORDER-LEFT: #d5d5d5 1px solid; WIDTH: 624px; BACKGROUND: url("or_line_bg.png")/*tpa=http://www.bangcle.com/static/images_v2.10/or_line_bg.png*/ #fff no-repeat center 73px; HEIGHT: 280px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid
+}
+.dialog_register_success .title {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 46px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; BACKGROUND: url("dialog_free_pro_title.png")/*tpa=http://www.bangcle.com/static/images_v2.10/dialog_free_pro_title.png*/ repeat-x; HEIGHT: 46px; COLOR: #666666; FONT-SIZE: 18px; PADDING-TOP: 0px; text-shadow: 0 1px 0 #FFFFFF
+}
+.dialog_register_success .title .close {
+	MARGIN-TOP: 14px; TEXT-INDENT: -999em; WIDTH: 19px; DISPLAY: block; BACKGROUND: url("dialog_free_pro_close.png")/*tpa=http://www.bangcle.com/static/images_v2.10/dialog_free_pro_close.png*/ no-repeat; FLOAT: right; HEIGHT: 19px; CURSOR: pointer
+}
+.dialog_register_success .title .close:hover {
+	BACKGROUND-POSITION: right bottom
+}
+.dialog_register_success DL {
+	WIDTH: 312px; FLOAT: left; PADDING-TOP: 88px
+}
+.dialog_register_success DT A {
+	TEXT-INDENT: -999em; MARGIN: 0px auto; WIDTH: 217px; DISPLAY: block; HEIGHT: 53px; TEXT-DECORATION: none
+}
+.dialog_register_success DT A:hover {
+	opacity: 0.8
+}
+.dialog_register_success DT .button_start {
+	BACKGROUND: url("button_bg2.png")/*tpa=http://www.bangcle.com/static/images_v2.10/button_bg2.png*/ no-repeat
+}
+.dialog_register_success DT .button_exp {
+	BACKGROUND: url("button_bg2.png")/*tpa=http://www.bangcle.com/static/images_v2.10/button_bg2.png*/ no-repeat left bottom
+}
+.dialog_register_success DD {
+	TEXT-ALIGN: center; COLOR: #666; PADDING-TOP: 20px
+}
+.dialog_shadow_register {
+	Z-INDEX: 99999; POSITION: fixed; PADDING-BOTTOM: 8px; MARGIN: -178px 0px 0px -220px; PADDING-LEFT: 8px; WIDTH: 424px; PADDING-RIGHT: 8px; HEIGHT: 340px; TOP: 50%; PADDING-TOP: 8px; LEFT: 50%
+}
+.dialog_register {
+	BORDER-BOTTOM: #d5d5d5 1px solid; POSITION: relative; BORDER-LEFT: #d5d5d5 1px solid; BACKGROUND-COLOR: #fff; WIDTH: 424px; HEIGHT: 340px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid
+}
+.dialog_register .title {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 46px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; MARGIN-BOTTOM: 10px; BACKGROUND: url("dialog_free_pro_title.png")/*tpa=http://www.bangcle.com/static/images_v2.10/dialog_free_pro_title.png*/ repeat-x; HEIGHT: 46px; COLOR: #666666; FONT-SIZE: 18px; PADDING-TOP: 0px; text-shadow: 0 1px 0 #FFFFFF
+}
+.dialog_register .title SPAN {
+	PADDING-LEFT: 10px; FONT-SIZE: 14px
+}
+.dialog_register .title .close {
+	MARGIN-TOP: 14px; TEXT-INDENT: -999em; WIDTH: 19px; DISPLAY: block; BACKGROUND: url("dialog_free_pro_close.png")/*tpa=http://www.bangcle.com/static/images_v2.10/dialog_free_pro_close.png*/ no-repeat; FLOAT: right; HEIGHT: 19px; CURSOR: pointer
+}
+.dialog_register .title .close:hover {
+	BACKGROUND-POSITION: right bottom
+}
+.dialog_register .message {
+	MARGIN: 0px 10px
+}
+.dialog_register UL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 20px
+}
+.dialog_register LI {
+	POSITION: relative; PADDING-BOTTOM: 10px; MIN-HEIGHT: 35px; PADDING-LEFT: 80px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.dialog_register LI STRONG {
+	POSITION: absolute; TEXT-ALIGN: right; LINE-HEIGHT: 30px; WIDTH: 70px; HEIGHT: 30px; TOP: 0px; FONT-WEIGHT: bold; LEFT: 0px
+}
+.dialog_register LI .input_text {
+	WIDTH: 238px
+}
+.dialog_register LI.button {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 45px; PADDING-LEFT: 80px; PADDING-RIGHT: 0px; HEIGHT: 45px; PADDING-TOP: 8px
+}
+.dialog_register LI.button BUTTON {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; TEXT-INDENT: -999em; WIDTH: 140px; DISPLAY: block; BACKGROUND: url("button_bg1.png")/*tpa=http://www.bangcle.com/static/images_v2.10/button_bg1.png*/ no-repeat left bottom; FLOAT: left; HEIGHT: 43px; BORDER-TOP: medium none; MARGIN-RIGHT: 2em; BORDER-RIGHT: medium none
+}
+.dialog_register LI.button BUTTON:hover {
+	opacity: 0.8
+}
+.dialog_register .login_other {
+	POSITION: absolute; WIDTH: 404px; BOTTOM: 0px; LEFT: 0px
+}
+.dialog_shadow_login {
+	Z-INDEX: 99999; POSITION: fixed; PADDING-BOTTOM: 8px; MARGIN: -153px 0px 0px -220px; PADDING-LEFT: 8px; WIDTH: 424px; PADDING-RIGHT: 8px; HEIGHT: 290px; TOP: 50%; PADDING-TOP: 8px; LEFT: 50%
+}
+.dialog_login {
+	BORDER-BOTTOM: #d5d5d5 1px solid; POSITION: relative; BORDER-LEFT: #d5d5d5 1px solid; BACKGROUND-COLOR: #fff; WIDTH: 424px; HEIGHT: 290px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid
+}
+.dialog_login .title {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 46px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; MARGIN-BOTTOM: 10px; BACKGROUND: url("dialog_free_pro_title.png")/*tpa=http://www.bangcle.com/static/images_v2.10/dialog_free_pro_title.png*/ repeat-x; HEIGHT: 46px; COLOR: #666666; FONT-SIZE: 18px; PADDING-TOP: 0px; text-shadow: 0 1px 0 #FFFFFF
+}
+.dialog_login .title SPAN {
+	PADDING-LEFT: 10px; FONT-SIZE: 14px
+}
+.dialog_login .title .close {
+	MARGIN-TOP: 14px; TEXT-INDENT: -999em; WIDTH: 19px; DISPLAY: block; BACKGROUND: url("dialog_free_pro_close.png")/*tpa=http://www.bangcle.com/static/images_v2.10/dialog_free_pro_close.png*/ no-repeat; FLOAT: right; HEIGHT: 19px; CURSOR: pointer
+}
+.dialog_login .title .close:hover {
+	BACKGROUND-POSITION: right bottom
+}
+.dialog_login .message {
+	MARGIN: 0px 10px
+}
+.dialog_login UL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 20px
+}
+.dialog_login LI {
+	POSITION: relative; PADDING-BOTTOM: 10px; MIN-HEIGHT: 35px; PADDING-LEFT: 80px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.dialog_login LI STRONG {
+	POSITION: absolute; TEXT-ALIGN: right; LINE-HEIGHT: 30px; WIDTH: 70px; HEIGHT: 30px; TOP: 0px; FONT-WEIGHT: bold; LEFT: 0px
+}
+.dialog_login LI .input_text {
+	WIDTH: 238px
+}
+.dialog_login LI.auto_login {
+	PADDING-BOTTOM: 0px; MIN-HEIGHT: 22px
+}
+.dialog_login LI.auto_login INPUT {
+	VERTICAL-ALIGN: -2px; MARGIN-RIGHT: 2px
+}
+.dialog_login LI.button {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 45px; PADDING-LEFT: 80px; PADDING-RIGHT: 0px; HEIGHT: 45px; PADDING-TOP: 8px
+}
+.dialog_login LI.button BUTTON {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; TEXT-INDENT: -999em; WIDTH: 140px; DISPLAY: block; BACKGROUND: url("button_bg1.png")/*tpa=http://www.bangcle.com/static/images_v2.10/button_bg1.png*/ no-repeat; FLOAT: left; HEIGHT: 43px; BORDER-TOP: medium none; MARGIN-RIGHT: 2em; BORDER-RIGHT: medium none
+}
+.dialog_login LI.button .button_submit {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; TEXT-INDENT: -999em; WIDTH: 146px; DISPLAY: block; BACKGROUND: url("button_submit.png")/*tpa=http://www.bangcle.com/static/images_v2.10/button_submit.png*/ no-repeat; FLOAT: left; HEIGHT: 42px; BORDER-TOP: medium none; MARGIN-RIGHT: 2em; BORDER-RIGHT: medium none
+}
+.dialog_login LI.button BUTTON:hover {
+	opacity: 0.8
+}
+.dialog_login .login_other {
+	POSITION: absolute; WIDTH: 404px; BOTTOM: 0px; LEFT: 0px
+}
+.dialog_shadow_quickly_test {
+	Z-INDEX: 99999; POSITION: fixed; PADDING-BOTTOM: 8px; MARGIN: -183px 0px 0px -278px; PADDING-LEFT: 8px; WIDTH: 540px; PADDING-RIGHT: 8px; HEIGHT: 350px; TOP: 50%; PADDING-TOP: 8px; LEFT: 50%
+}
+.dialog_quickly_test {
+	BORDER-BOTTOM: #d5d5d5 1px solid; POSITION: relative; BORDER-LEFT: #d5d5d5 1px solid; BACKGROUND-COLOR: #fff; WIDTH: 540px; HEIGHT: 350px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid
+}
+.dialog_quickly_test .title {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 46px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; MARGIN-BOTTOM: 10px; BACKGROUND: url("dialog_free_pro_title.png")/*tpa=http://www.bangcle.com/static/images_v2.10/dialog_free_pro_title.png*/ repeat-x; HEIGHT: 46px; COLOR: #666666; FONT-SIZE: 18px; PADDING-TOP: 0px; text-shadow: 0 1px 0 #FFFFFF
+}
+.dialog_quickly_test .title .close {
+	MARGIN-TOP: 14px; TEXT-INDENT: -999em; WIDTH: 19px; DISPLAY: block; BACKGROUND: url("dialog_free_pro_close.png")/*tpa=http://www.bangcle.com/static/images_v2.10/dialog_free_pro_close.png*/ no-repeat; FLOAT: right; HEIGHT: 19px; CURSOR: pointer
+}
+.dialog_quickly_test .title .close:hover {
+	BACKGROUND-POSITION: right bottom
+}
+.dialog_quickly_test .flow_step {
+	MARGIN: 0px auto 40px; WIDTH: 520px; HEIGHT: 25px
+}
+.dialog_quickly_test .flow_step LI {
+	TEXT-ALIGN: center; LINE-HEIGHT: 25px; WIDTH: 173px; FLOAT: left; HEIGHT: 25px; COLOR: #999; FONT-SIZE: 14px
+}
+.quickly_test1 .flow_step {
+	BACKGROUND: url("dialog_flowstep_bg.png")/*tpa=http://www.bangcle.com/static/images_v2.10/dialog_flowstep_bg.png*/ no-repeat
+}
+.quickly_test2 .flow_step {
+	BACKGROUND: url("dialog_flowstep_bg.png")/*tpa=http://www.bangcle.com/static/images_v2.10/dialog_flowstep_bg.png*/ no-repeat 0px -25px
+}
+.quickly_test3 .flow_step {
+	BACKGROUND: url("dialog_flowstep_bg.png")/*tpa=http://www.bangcle.com/static/images_v2.10/dialog_flowstep_bg.png*/ no-repeat 0px -50px
+}
+.quickly_test1 .flow_step .step_1 {
+	COLOR: #fff
+}
+.quickly_test2 .flow_step .step_2 {
+	COLOR: #fff
+}
+.quickly_test3 .flow_step .step_3 {
+	COLOR: #fff
+}
+.quickly_test1 H3 {
+	TEXT-ALIGN: center; MARGIN: 0px auto 20px; COLOR: #f60; FONT-SIZE: 14px
+}
+.quickly_test1 .upload_app {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; BORDER-TOP: #d5d5d5 1px dashed; PADDING-TOP: 40px
+}
+.quickly_test1 .upload_app STRONG {
+	TEXT-ALIGN: right; LINE-HEIGHT: 30px; WIDTH: 60px; PADDING-RIGHT: 10px; DISPLAY: inline-block; HEIGHT: 30px; FONT-WEIGHT: bold
+}
+.quickly_test1 .upload_app .input_text {
+	WIDTH: 240px
+}
+.quickly_test1 .upload_app .file_bt {
+	POSITION: absolute; TEXT-INDENT: -999em; WIDTH: 85px; DISPLAY: block; BACKGROUND: url("upload_bt.png")/*tpa=http://www.bangcle.com/static/images_v2.10/upload_bt.png*/ no-repeat; HEIGHT: 30px; TOP: 40px; LEFT: 344px
+}
+.quickly_test1 .upload_app .file_bt:hover {
+	opacity: 0.8
+}
+.quickly_test1 .upload_app .swfupload {
+	BACKGROUND: url("upload_bt.png")/*tpa=http://www.bangcle.com/static/images_v2.10/upload_bt.png*/ no-repeat; VERTICAL-ALIGN: -10px
+}
+.quickly_test1 .upload_app SPAN.error_tips {
+	PADDING-LEFT: 74px
+}
+.quickly_test1 .upload_app SPAN.attention {
+	PADDING-LEFT: 74px
+}
+.quickly_test1 .upload_app .tabs_title {
+	POSITION: absolute; TOP: 45px; RIGHT: 20px
+}
+.quickly_test1 .upload_app SELECT {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; WIDTH: 246px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.quickly_test2 .upload_app {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; PADDING-TOP: 30px
+}
+.quickly_test2 .upload_app STRONG {
+	TEXT-ALIGN: right; LINE-HEIGHT: 30px; WIDTH: 60px; PADDING-RIGHT: 10px; DISPLAY: block; HEIGHT: 30px; FONT-WEIGHT: bold
+}
+.quickly_test2 .upload_app .progress_wp {
+	POSITION: absolute; TEXT-ALIGN: right; LINE-HEIGHT: 21px; WIDTH: 400px; HEIGHT: 21px; TOP: 34px; LEFT: 90px
+}
+.quickly_test2 .upload_app .progress {
+	BORDER-BOTTOM: #d5d5d5 1px solid; POSITION: absolute; TEXT-ALIGN: left; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #fbfbfb; PADDING-LEFT: 1px; WIDTH: 350px; PADDING-RIGHT: 1px; DISPLAY: block; HEIGHT: 13px; BORDER-TOP: #d5d5d5 1px solid; TOP: 2px; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 1px; LEFT: 0px
+}
+.quickly_test2 .upload_app .progress SPAN {
+	DISPLAY: block; HEIGHT: 13px; OVERFLOW: hidden
+}
+.quickly_test2 .upload_app .progress_wp EM {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.quickly_test2 .upload_app .loading {
+	TEXT-ALIGN: center; MARGIN-BOTTOM: 30px; FONT-SIZE: 14px; PADDING-TOP: 20px
+}
+.quickly_test2 .upload_app TABLE {
+	MARGIN: 0px auto; BORDER-SPACING: 0; WIDTH: 440px; BORDER-COLLAPSE: collapse
+}
+.quickly_test2 .upload_app TH {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0px; PADDING-LEFT: 8px; WIDTH: 80px; PADDING-RIGHT: 8px; HEIGHT: 24px; PADDING-TOP: 0px
+}
+.quickly_test2 .upload_app TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; HEIGHT: 24px; PADDING-TOP: 0px
+}
+.quickly_test3 H3 {
+	LINE-HEIGHT: 30px; MARGIN: 0px auto 20px; PADDING-LEFT: 35px; WIDTH: 320px; BACKGROUND: url("dialog_icon_y.png")/*tpa=http://www.bangcle.com/static/images_v2.10/dialog_icon_y.png*/ no-repeat left center; HEIGHT: 30px; COLOR: #0a0; FONT-SIZE: 24px
+}
+.quickly_test3 .email {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-TOP: #d5d5d5 1px dashed; PADDING-TOP: 20px
+}
+.quickly_test3 .email H5 {
+	TEXT-ALIGN: center; MARGIN-BOTTOM: 20px
+}
+.quickly_test3 .email LI {
+	POSITION: relative; PADDING-BOTTOM: 10px; MIN-HEIGHT: 40px; PADDING-LEFT: 150px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.quickly_test3 .email LI STRONG {
+	POSITION: absolute; TEXT-ALIGN: right; LINE-HEIGHT: 30px; WIDTH: 140px; HEIGHT: 30px; TOP: 0px; FONT-WEIGHT: bold; LEFT: 0px
+}
+.quickly_test3 .email LI .input_text {
+	WIDTH: 280px
+}
+.quickly_test3 .email LI.button {
+	HEIGHT: 45px
+}
+.quickly_test3 .email LI.button BUTTON {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; TEXT-INDENT: -999em; WIDTH: 167px; DISPLAY: block; BACKGROUND: url("button_bg4.png")/*tpa=http://www.bangcle.com/static/images_v2.10/button_bg4.png*/ no-repeat; HEIGHT: 43px; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.quickly_test3 .email LI.button BUTTON:hover {
+	opacity: 0.8
+}
+.quickly_test3 .email .loading {
+	TEXT-ALIGN: center; FONT-SIZE: 14px; PADDING-TOP: 50px
+}
+.dialog_ucad_w {
+	Z-INDEX: 9999; POSITION: fixed; WIDTH: 100%; BACKGROUND: url("opacity_bg-1.png")/*tpa=http://www.bangcle.com/static/images/opacity_bg.png*/; HEIGHT: 100%; TOP: 0px; LEFT: 0px; _display: none
+}
+.dialog_ucad {
+	Z-INDEX: 99999; POSITION: fixed; MARGIN: -200px 0px 0px -239px; WIDTH: 478px; BACKGROUND: url("dialog_ucad.png")/*tpa=http://www.bangcle.com/static/images/dialog_ucad.png*/ no-repeat; HEIGHT: 362px; TOP: 50%; LEFT: 50%; _display: none
+}
+.dialog_ucad .m {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 80px; PADDING-RIGHT: 80px; PADDING-TOP: 160px
+}
+.dialog_ucad .m .close {
+	POSITION: absolute; TEXT-INDENT: -999em; WIDTH: 35px; DISPLAY: block; HEIGHT: 35px; TOP: 112px; CURSOR: pointer; RIGHT: 106px
+}
+.dialog_ucad .m H3 {
+	MARGIN-BOTTOM: 10px; FONT-SIZE: 16px; FONT-WEIGHT: bold
+}
+.dialog_ucad .m P {
+	MARGIN-BOTTOM: 4px; FONT-SIZE: 14px
+}
+.dialog_ucad .m .button {
+	PADDING-TOP: 15px
+}
+.dialog_ucad .m .button A {
+	BORDER-BOTTOM: #f50 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #f50 1px solid; LINE-HEIGHT: 35px; BACKGROUND-COLOR: #f60; MARGIN: 0px auto; WIDTH: 140px; DISPLAY: block; HEIGHT: 35px; COLOR: #fff; FONT-SIZE: 14px; BORDER-TOP: #f50 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #f50 1px solid; TEXT-DECORATION: none; border-radius: 3px
+}
+.dialog_ucad .m .button A:hover {
+	opacity: 0.8
+}
+.dialog_ucad .m .button A:active {
+	BACKGROUND-COLOR: #f50
+}
+
+.sign_wp {
+	Z-INDEX: 98; POSITION: fixed; WIDTH: 100%; BACKGROUND: url("opacity_bg.png")/*tpa=http://www.bangcle.com/static/images_v2.10/opacity_bg.png*/; HEIGHT: 100%; TOP: 0px; LEFT: 0px
+}
+.sign_tip {POSITION: fixed; MARGIN: -74px 0px 0px -163px;left:50%;top:50%; z-index:99; /*margin:0 auto;*/ border: #d5d5d5 1px solid; background-color: #fbfbfb; width:326px; height:148px;}

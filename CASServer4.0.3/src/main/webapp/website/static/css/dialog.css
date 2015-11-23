@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+.dialog_message{line-height:20px; min-height:30px; padding-left:35px; padding-top:2px; margin:0 0 10px 0;}
+.dialog_success{background:url("dialog_icon.png")/*tpa=http://www.bangcle.com/static/images/dialog_icon.png*/ 0 0 no-repeat;}
+.dialog_error{background:url("dialog_icon.png")/*tpa=http://www.bangcle.com/static/images/dialog_icon.png*/ 0 -50px no-repeat;}
+.dialog_warning{background:url("dialog_icon.png")/*tpa=http://www.bangcle.com/static/images/dialog_icon.png*/ 0 -100px no-repeat;}
+.dialog_help{background:url("dialog_icon.png")/*tpa=http://www.bangcle.com/static/images/dialog_icon.png*/ 0 -150px no-repeat;}
+.dialog_info{background:url("dialog_icon.png")/*tpa=http://www.bangcle.com/static/images/dialog_icon.png*/ 0 -200px no-repeat;}
+
+.dialog_confirm_order .dialog_main table{width:100%; margin-bottom:10px;}
+.dialog_confirm_order .dialog_main th{height:34px; line-height:34px; border-bottom:#CCC solid 2px; padding:0 8px; font-weight:bold;}
+.dialog_confirm_order .dialog_main td{height:32px; line-height:32px; border-bottom:#D5D5D5 solid 1px; padding:0 8px;}
+.dialog_confirm_order .dialog_main p{padding:2px 6px;}
+
+.dialog_free_pro_wp{background:url("opacity_bg-1.png")/*tpa=http://www.bangcle.com/static/images/opacity_bg.png*/ repeat; height:100%; width:100%; position:fixed; left:0; top:0; z-index:9999;}
+.dialog_shadow{background:rgba(0, 0, 0, 0.2); padding:8px; left:50%; margin:-151px 0 0 -312px; position:fixed; top:50%; height:330px; width:624px; z-index:99999;}
+.dialog_free_pro{background:#FFF url("line_bg2.png")/*tpa=http://www.bangcle.com/static/images/line_bg2.png*/ center 66px no-repeat; color:#666; height:330px; width:624px; position:relative;}
+.dialog_free_pro .title{background:url("dialog_free_pro_title-1.png")/*tpa=http://www.bangcle.com/static/images/dialog_free_pro_title.png*/ repeat-x; height:46px; line-height:46px; font-size:18px; color:#666666; text-shadow:0 1px 0 #FFFFFF; padding:0 15px;}
+.dialog_free_pro .close{display:block; background:url("dialog_free_pro_close-1.png")/*tpa=http://www.bangcle.com/static/images/dialog_free_pro_close.png*/ no-repeat; width:19px; height:19px; text-indent:-999em; cursor:pointer; float:right; margin-top:14px;}
+.dialog_free_pro .close:hover{background-position:right bottom;}
+.dialog_free_pro dl{float:left; width:262px; padding:20px 0 0 50px; height:264px; position:relative;}
+.dialog_free_pro dt{background:url("icon_dot2.png")/*tpa=http://www.bangcle.com/static/images/icon_dot2.png*/ left center no-repeat; height:35px; line-height:35px; padding-left:28px; font-size:22px; margin-bottom:6px;}
+.dialog_free_pro dt span{font-size:14px; color:#F60;}
+.dialog_free_pro dd{background:url("dots.png")/*tpa=http://www.bangcle.com/static/images/dots.png*/ 8px center no-repeat; height:26px; line-height:26px; padding-left:18px; font-size:14px;}
+.dialog_free_pro dd.bt{height:35px; background:none; border:none; width:212px; padding-left:50px; position:absolute; left:20px; bottom:22px;}
+.dialog_free_pro dd.bt a{background-color:#5E9CE1; border-radius:3px; color:#FFF; display:inline-block; font-weight:bold; height:35px; line-height:35px; padding:0 1.8em; text-decoration:none; text-shadow:0 1px 0 #555;}
+.dialog_free_pro dd.bt span{font-size:12px; color:#F00;}
+
+.dialog_uploading_wp{background:url("opacity_bg-1.png")/*tpa=http://www.bangcle.com/static/images/opacity_bg.png*/ repeat; height:100%; width:100%; position:fixed; left:0; top:0; z-index:9999;}
+.dialog_uploading{background-color:#FFF; border-radius:5px; box-shadow:0 0 5px #999; color:#666; height:40px; left:50%; margin:-20px 0 0 -100px; position:fixed; top:50%; width:200px; z-index:99999;}
+.dialog_uploading span{display:block; font-size:14px; height:40px; line-height:40px; padding-left:50px; background: url("uploading.gif")/*tpa=http://www.bangcle.com/static/images/uploading.gif*/ 16px center no-repeat;}
+.dialog_uploading span b{font-weight:normal; color:#F60; padding-left:4px;}
+.dialog_mobile_list{padding:0!important;}
+.dialog_mobile_list .list_main{height:200px!important; overflow-y:auto;}
+.dialog_mobile_list table{width:100%;}
+.dialog_mobile_list td{height:30px; padding:0 10px; border:#D5D5D5 solid 1px;}
+.sign_wp {
+	Z-INDEX: 98; POSITION: fixed; WIDTH: 100%; BACKGROUND: url("opacity_bg.png")/*tpa=http://www.bangcle.com/static/images_v2.10/opacity_bg.png*/; HEIGHT: 100%; TOP: 0px; LEFT: 0px
+}
+.sign_tip {POSITION: fixed; MARGIN: -74px 0px 0px -163px;left:50%;top:50%; z-index:99; /*margin:0 auto;*/ border: #d5d5d5 1px solid; background-color: #fbfbfb; width:326px; height:148px;}

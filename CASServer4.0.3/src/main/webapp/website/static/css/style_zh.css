@@ -1,0 +1,1482 @@
+BODY {
+	MIN-WIDTH: 980px; BACKGROUND-COLOR: #fff
+}
+.topnav_w {
+	BACKGROUND-COLOR: #222; HEIGHT: 40px
+}
+.topnav {
+	LINE-HEIGHT: 30px; MARGIN: 0px auto; WIDTH: 980px; HEIGHT: 40px; COLOR: #b5b5b5
+}
+.topnav A {
+	COLOR: #b5b5b5
+}
+.topnav .login {
+	FLOAT: right;
+    margin-top: 5px;
+}
+.topnav .login .qq {
+	PADDING-LEFT: 26px; PADDING-RIGHT: 6px; DISPLAY: inline-block; BACKGROUND: url("icon_topnav.png")/*tpa=http://www.bangcle.com/static/images/icon_topnav.png*/ no-repeat 6px -33px; TEXT-DECORATION: none; _background: none
+}
+.topnav .login .sweibo {
+	PADDING-LEFT: 28px; PADDING-RIGHT: 6px; DISPLAY: inline-block; BACKGROUND: url("icon_topnav.png")/*tpa=http://www.bangcle.com/static/images/icon_topnav.png*/ no-repeat 6px 8px; MARGIN-LEFT: 2px; TEXT-DECORATION: none
+}
+
+
+.topnav .login .top_img_txt {
+    PADDING-LEFT: 40px;
+    PADDING-RIGHT: 30px;
+    DISPLAY: inline-block;
+    TEXT-DECORATION: none;
+    font-size: 14px;
+    float: left;
+}
+
+
+.topnav .login .top_qq {
+    BACKGROUND: url("ico_qq2.png")/*tpa=http://www.bangcle.com/static/images/ico_qq2.png*/ no-repeat 7px 1px;
+}
+
+.topnav .login .top_tel {
+    BACKGROUND: url("ico_Tel.png")/*tpa=http://www.bangcle.com/static/images/ico_Tel.png*/ no-repeat 7px 1px;
+}
+
+.topnav .login .qq:hover {
+	BACKGROUND-COLOR: #585858
+}
+.topnav .login .sweibo:hover {
+	BACKGROUND-COLOR: #585858
+}
+.topnav .login .bt_l {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #666; PADDING-LEFT: 24px; PADDING-RIGHT: 24px; DISPLAY: inline-block; COLOR: #fff; MARGIN-LEFT: 2px; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.topnav .login .bt_r {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #1d8bd8; PADDING-LEFT: 24px; PADDING-RIGHT: 24px; DISPLAY: inline-block; COLOR: #fff; MARGIN-LEFT: 1px; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.topnav .login .bt_l:hover {
+	opacity: 0.8
+}
+.topnav .login .bt_r:hover {
+	opacity: 0.8
+}
+.topnav STRONG {
+	FLOAT: left; MARGIN-RIGHT: 8px
+}
+.topnav .account {
+	Z-INDEX: 10; POSITION: relative; BACKGROUND: url("topnav_line_bg.png")/*tpa=http://www.bangcle.com/static/images/topnav_line_bg.png*/ no-repeat; FLOAT: left; _width: 52px
+}
+.topnav .account SPAN {
+	Z-INDEX: 9; BORDER-BOTTOM: #222 1px solid; POSITION: relative; BORDER-LEFT: #222 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 28px; PADDING-LEFT: 8px; PADDING-RIGHT: 18px; DISPLAY: block; BACKGROUND: url("topnav_icon_bg.png")/*tpa=http://www.bangcle.com/static/images/topnav_icon_bg.png*/ no-repeat 35px -22px; HEIGHT: 28px; BORDER-TOP: #222 1px solid; CURSOR: default; BORDER-RIGHT: #222 1px solid; PADDING-TOP: 0px
+}
+.topnav .account UL {
+	BORDER-BOTTOM: #d5d5d5 1px solid; POSITION: absolute; BORDER-LEFT: #d5d5d5 1px solid; BACKGROUND-COLOR: #fff; WIDTH: 85px; DISPLAY: none; BORDER-TOP: #d5d5d5 1px solid; TOP: 29px; RIGHT: 0px; BORDER-RIGHT: #d5d5d5 1px solid; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2)
+}
+.topnav .account LI A {
+	LINE-HEIGHT: 28px; PADDING-LEFT: 10px; DISPLAY: block; HEIGHT: 28px; COLOR: #369; TEXT-DECORATION: none
+}
+.topnav .account LI A:hover {
+	BACKGROUND-COLOR: #eee
+}
+.topnav .account_mouseover SPAN {
+	BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #d5d5d5 1px solid; BACKGROUND: url("topnav_icon_bg.png")/*tpa=http://www.bangcle.com/static/images/topnav_icon_bg.png*/ #fff no-repeat 35px 13px; COLOR: #666; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid
+}
+.topnav .account_mouseover UL {
+	DISPLAY: block
+}
+.topnav .follow A {
+	PADDING-RIGHT: 6px; DISPLAY: inline-block; BACKGROUND: url("icon_topnav.png")/*tpa=http://www.bangcle.com/static/images/icon_topnav.png*/ no-repeat; MARGIN-LEFT: 2px; TEXT-DECORATION: none; _background: none
+}
+.topnav .follow A:hover {
+	BACKGROUND-COLOR: #585858
+}
+.topnav .follow .sweibo {
+	PADDING-LEFT: 28px; BACKGROUND-POSITION: 6px 8px
+}
+.topnav .follow .tweibo {
+	PADDING-LEFT: 24px; BACKGROUND-POSITION: 4px -71px
+}
+.header {
+	PADDING-BOTTOM: 20px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: 1070px; PADDING-RIGHT: 0px; HEIGHT: 32px; PADDING-TOP: 20px
+}
+.header .menu {
+	FLOAT: right
+}
+.header .menu LI {
+	Z-INDEX: 9; POSITION: relative; LINE-HEIGHT: 32px; DISPLAY: inline; FLOAT: left; HEIGHT: 32px; MARGIN-LEFT: 20px
+}
+.header .menu LI A {
+	COLOR: #333; FONT-SIZE: 16px; TEXT-DECORATION: none
+}
+.header .menu LI UL {
+	POSITION: absolute; BACKGROUND-COLOR: #fff; WIDTH: 80px; DISPLAY: none; MARGIN-LEFT: -40px; TOP: 32px; PADDING-TOP: 4px; LEFT: 50%
+}
+.header .menu LI LI {
+	MARGIN: 0px; FLOAT: none; HEIGHT: auto
+}
+.header .menu LI LI A {
+	LINE-HEIGHT: 30px; BACKGROUND-COLOR: #1d8bd8; PADDING-LEFT: 10px; DISPLAY: block; HEIGHT: 30px; COLOR: #fff; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.header .menu LI LI A:hover {
+	opacity: 0.8
+}
+.header .menu .drop_downs_mouseover UL {
+	DISPLAY: block
+}
+.header .logo {
+	FLOAT: left
+}
+.header .logo A {
+	/*TEXT-INDENT: -999em; WIDTH: 202px; DISPLAY: block; BACKGROUND: url(../images/logo.png) no-repeat; HEIGHT: 32px*/
+	TEXT-INDENT: -999em; WIDTH: 305px; DISPLAY: block; BACKGROUND: url("logo.png")/*tpa=http://www.bangcle.com/static/images/logo.png*/ no-repeat center; HEIGHT: 38px
+}
+.header .eoe_logo {
+	FLOAT: left
+}
+.header .eoe_logo A {
+	TEXT-INDENT: -999em; WIDTH: 260px; DISPLAY: block; BACKGROUND: url("eoe_logo.png")/*tpa=http://www.bangcle.com/static/images/eoe_logo.png*/ no-repeat; HEIGHT: 40px
+}
+.header .umeng_logo {
+	FLOAT: left
+}
+.header .umeng_logo A {
+	TEXT-INDENT: -999em; WIDTH: 250px; DISPLAY: block; BACKGROUND: url("umeng_logo.png")/*tpa=http://www.bangcle.com/static/images/umeng_logo.png*/ no-repeat; HEIGHT: 40px
+}
+.header .youmi_logo {
+	FLOAT: left
+}
+.header .youmi_logo A {
+	TEXT-INDENT: -999em; WIDTH: 240px; DISPLAY: block; BACKGROUND: url("youmi_logo.png")/*tpa=http://www.bangcle.com/static/images/youmi_logo.png*/ no-repeat; HEIGHT: 40px
+}
+.header .mogo_logo {
+	FLOAT: left
+}
+.header .mogo_logo A {
+	TEXT-INDENT: -999em; WIDTH: 280px; DISPLAY: block; BACKGROUND: url("mogo_logo.png")/*tpa=http://www.bangcle.com/static/images/mogo_logo.png*/ no-repeat; HEIGHT: 40px
+}
+.nav_wrapper {
+	MARGIN-BOTTOM: 8px; BACKGROUND: url("nav_bg.png")/*tpa=http://www.bangcle.com/static/images/nav_bg.png*/ repeat-x; HEIGHT: 40px
+}
+.nav {
+	LINE-HEIGHT: 40px; MARGIN: 0px auto; WIDTH: 980px; HEIGHT: 40px
+}
+.nav LI {
+	PADDING-LEFT: 2px; BACKGROUND: url("nav_li_bg.png")/*tpa=http://www.bangcle.com/static/images/nav_li_bg.png*/ no-repeat left top; FLOAT: left; HEIGHT: 40px
+}
+.nav LI A {
+	TEXT-ALIGN: center; LINE-HEIGHT: 36px; WIDTH: 120px; FLOAT: left; HEIGHT: 40px; COLOR: #fff; FONT-SIZE: 14px; FONT-WEIGHT: bold; MARGIN-RIGHT: 1px; TEXT-DECORATION: none; text-shadow: 0 1px 0 #555555
+}
+.nav LI A:hover {
+	BACKGROUND: url("nav_li_bg_hover.png")/*tpa=http://www.bangcle.com/static/images/nav_li_bg_hover.png*/ repeat-x
+}
+.nav LI A.cur {
+	BACKGROUND: url("nav_li_bg_cur.png")/*tpa=http://www.bangcle.com/static/images/nav_li_bg_cur.png*/ repeat-x
+}
+.nav LI EM {
+	TEXT-ALIGN: center; LINE-HEIGHT: 36px; WIDTH: 120px; FLOAT: left; HEIGHT: 40px; COLOR: #fff; FONT-SIZE: 14px; CURSOR: pointer; FONT-WEIGHT: bold; MARGIN-RIGHT: 1px; text-shadow: 0 1px 0 #555555
+}
+.nav .drop_down {
+	POSITION: relative
+}
+.nav .drop_down UL {
+	Z-INDEX: 999; BORDER-BOTTOM: #5083bb 1px solid; POSITION: absolute; TEXT-ALIGN: center; BORDER-LEFT: #75a8dd 1px solid; BACKGROUND-COLOR: #5b95d5; WIDTH: 121px; TOP: 35px; BORDER-RIGHT: #5083bb 1px solid; LEFT: -1px; box-shadow: 3px 3px 3px #AAA
+}
+.nav .drop_down LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: none; HEIGHT: 30px; PADDING-TOP: 0px
+}
+.nav .drop_down LI A {
+	LINE-HEIGHT: 30px; MARGIN: 0px; WIDTH: 121px; DISPLAY: block; FLOAT: none; HEIGHT: 30px; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.nav .drop_down LI A:hover {
+	BACKGROUND: #76a9df
+}
+.page_url {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 32px; BACKGROUND-COLOR: #fbfbfb; MARGIN: 0px auto 10px; PADDING-LEFT: 10px; WIDTH: 960px; PADDING-RIGHT: 10px; HEIGHT: 32px; COLOR: #666; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 0px; border-radius: 3px
+}
+.page_url SPAN {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; FONT-FAMILY: "����"; COLOR: #999; PADDING-TOP: 0px
+}
+.banner_wrapper {
+	BORDER-BOTTOM: #436db0 1px solid; BACKGROUND-COLOR: #5b95d5; BORDER-TOP: #436db0 1px solid
+}
+.banner {
+	POSITION: relative; LINE-HEIGHT: 70px; MARGIN: 0px auto; WIDTH: 980px; HEIGHT: 70px; OVERFLOW: hidden
+}
+.banner H2 {
+	WIDTH: 480px; COLOR: #fff; FONT-SIZE: 36px; text-shadow: 0 1px 0 #555
+}
+.banner STRONG {
+	POSITION: absolute; BOTTOM: 10px; RIGHT: 0px
+}
+STRONG .button {
+	TEXT-INDENT: -999em; WIDTH: 164px; DISPLAY: block; FLOAT: left; HEIGHT: 48px; OVERFLOW: hidden; TEXT-DECORATION: none
+}
+STRONG .exp {
+	BACKGROUND: url("button_exp1.png")/*tpa=http://www.bangcle.com/static/images/button_exp1.png*/ no-repeat
+}
+STRONG .exp:hover {
+	BACKGROUND: url("button_exp2.png")/*tpa=http://www.bangcle.com/static/images/button_exp2.png*/ no-repeat
+}
+STRONG .exp:active {
+	BACKGROUND: url("button_exp3.png")/*tpa=http://www.bangcle.com/static/images/button_exp3.png*/ no-repeat
+}
+.partner {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; BACKGROUND-COLOR: #fff; MARGIN-BOTTOM: 10px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; border-radius: 3px
+}
+.partner H3 {
+	BORDER-BOTTOM: #d5d5d5 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 35px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; HEIGHT: 35px; FONT-SIZE: 16px; PADDING-TOP: 0px
+}
+.partner .partner_show {
+	POSITION: relative; PADDING-BOTTOM: 10px; PADDING-LEFT: 65px; PADDING-RIGHT: 65px; BACKGROUND: url("line_bg.png")/*tpa=http://www.bangcle.com/static/images/line_bg.png*/ no-repeat center center; HEIGHT: 50px; PADDING-TOP: 10px
+}
+.partner .partner_show BUTTON {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; TEXT-INDENT: -999em; WIDTH: 18px; DISPLAY: block; HEIGHT: 36px; BORDER-TOP: medium none; TOP: 17px; BORDER-RIGHT: medium none
+}
+.partner .partner_show .prev {
+	BACKGROUND: url("bt_lr1.png")/*tpa=http://www.bangcle.com/static/images/bt_lr1.png*/ no-repeat 0px 0px; LEFT: 12px
+}
+.partner .partner_show .next {
+	BACKGROUND: url("bt_lr1.png")/*tpa=http://www.bangcle.com/static/images/bt_lr1.png*/ no-repeat -19px 0px; RIGHT: 12px
+}
+.partner .partner_show .prev:hover {
+	BACKGROUND: url("bt_lr1.png")/*tpa=http://www.bangcle.com/static/images/bt_lr1.png*/ no-repeat -40px 0px
+}
+.partner .partner_show .next:hover {
+	BACKGROUND: url("bt_lr1.png")/*tpa=http://www.bangcle.com/static/images/bt_lr1.png*/ no-repeat -59px 0px
+}
+.partner .partner_show LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; WIDTH: 132px; PADDING-RIGHT: 5px; FLOAT: left; PADDING-TOP: 0px
+}
+.partner .partner_show LI IMG {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; BACKGROUND-COLOR: #fff; DISPLAY: block; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid
+}
+.content {
+	MARGIN: 0px auto; WIDTH: 980px
+}
+.aside {
+	WIDTH: 210px; MARGIN-BOTTOM: 10px; FLOAT: left
+}
+.aside .round {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; BACKGROUND-COLOR: #fbfbfb; ZOOM: 1; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid
+}
+.aside .round H4 {
+	POSITION: relative; PADDING-BOTTOM: 0px; LINE-HEIGHT: 34px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: url("h4_bg.png")/*tpa=http://www.bangcle.com/static/images/h4_bg.png*/ repeat-x; HEIGHT: 34px; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.aside .round H4 STRONG {
+	LINE-HEIGHT: 35px; DISPLAY: block; HEIGHT: 35px; FONT-WEIGHT: bold
+}
+.aside .menu {
+	PADDING-BOTTOM: 100px; MARGIN-BOTTOM: 10px
+}
+.aside .menu LI {
+	POSITION: relative; LINE-HEIGHT: 32px; MARGIN-BOTTOM: 1px; HEIGHT: 32px
+}
+.aside .menu LI A {
+	PADDING-LEFT: 10px; DISPLAY: block; HEIGHT: 32px; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.aside .menu LI A.cur {
+	BACKGROUND: url("menu_li_cur.png")/*tpa=http://www.bangcle.com/static/images/menu_li_cur.png*/ #f7f8fa repeat-y
+}
+.aside .menu LI A:hover {
+	BACKGROUND-COLOR: #f7f8fa
+}
+.aside .service H5 {
+	LINE-HEIGHT: 35px; MARGIN-BOTTOM: 8px; BACKGROUND: url("solution_h3_bg.png")/*tpa=http://www.bangcle.com/static/images/solution_h3_bg.png*/ repeat-x left bottom; HEIGHT: 35px; OVERFLOW: hidden
+}
+.aside .service H5 STRONG {
+	BORDER-BOTTOM: #5b95d5 2px solid; LINE-HEIGHT: 33px; FLOAT: left; HEIGHT: 33px; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.aside .service {
+	LINE-HEIGHT: 1.6; FONT-SIZE: 12px
+}
+.aside .service TH {
+	PADDING-BOTTOM: 10px; WIDTH: 64px; VERTICAL-ALIGN: top
+}
+.aside .service TD {
+	PADDING-BOTTOM: 10px; VERTICAL-ALIGN: top
+}
+.aside .service TD SPAN {
+	DISPLAY: block; COLOR: #999
+}
+.article {
+	MARGIN: 0px 0px 10px 220px; WIDTH: 760px; OVERFLOW: hidden
+}
+.message {
+	PADDING-BOTTOM: 6px; LINE-HEIGHT: 20px; PADDING-LEFT: 32px; PADDING-RIGHT: 15px; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; PADDING-TOP: 6px; border-radius: 3px 3px 3px 3px
+}
+.message A {
+	MARGIN: 0px 2px; TEXT-DECORATION: underline
+}
+.error.message {
+	BORDER-BOTTOM: #e9c59b 1px solid; BORDER-LEFT: #e9c59b 1px solid; BACKGROUND: url("message_error.gif")/*tpa=http://www.bangcle.com/static/images/message_error.gif*/ #ffecce no-repeat 8px 9px; BORDER-TOP: #e9c59b 1px solid; BORDER-RIGHT: #e9c59b 1px solid
+}
+.success.message {
+	BORDER-BOTTOM: #bfde84 1px solid; BORDER-LEFT: #bfde84 1px solid; BACKGROUND: url("message_success.gif")/*tpa=http://www.bangcle.com/static/images/message_success.gif*/ #edfbd8 no-repeat 8px 9px; BORDER-TOP: #bfde84 1px solid; BORDER-RIGHT: #bfde84 1px solid
+}
+.info.message {
+	BORDER-BOTTOM: #bbdbe0 1px solid; BORDER-LEFT: #bbdbe0 1px solid; BACKGROUND: url("message_info.gif")/*tpa=http://www.bangcle.com/static/images/message_info.gif*/ #ecf9ff no-repeat 8px 9px; BORDER-TOP: #bbdbe0 1px solid; BORDER-RIGHT: #bbdbe0 1px solid
+}
+.warning.message {
+	BORDER-BOTTOM: #e5e181 1px solid; BORDER-LEFT: #e5e181 1px solid; BACKGROUND: url("message_warning.gif")/*tpa=http://www.bangcle.com/static/images/message_warning.gif*/ #fefde2 no-repeat 8px 9px; BORDER-TOP: #e5e181 1px solid; BORDER-RIGHT: #e5e181 1px solid
+}
+.cut {
+	WIDTH: 100%; TEXT-OVERFLOW: ellipsis; ZOOM: 1; DISPLAY: inline-block; WHITE-SPACE: nowrap; VERTICAL-ALIGN: middle; OVERFLOW: hidden
+}
+SELECT {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 4px
+}
+.input_text {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 2px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 2px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 2px; FONT: 12px/25px verdana, tahoma, arial, sans-serif; BACKGROUND: url("input_text_bg.png")/*tpa=http://www.bangcle.com/static/images/input_text_bg.png*/ #fff repeat-x; HEIGHT: 25px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 2px
+}
+TEXTAREA {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 2px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 2px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 2px; FONT: 12px/25px verdana, tahoma, arial, sans-serif; BACKGROUND: url("input_text_bg.png")/*tpa=http://www.bangcle.com/static/images/input_text_bg.png*/ #fff repeat-x; HEIGHT: 25px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 2px
+}
+.input_text:focus {
+	BORDER-BOTTOM: #4d90fe 1px solid; BORDER-LEFT: #4d90fe 1px solid; BORDER-TOP: #4d90fe 1px solid; BORDER-RIGHT: #4d90fe 1px solid
+}
+TEXTAREA:focus {
+	BORDER-BOTTOM: #4d90fe 1px solid; BORDER-LEFT: #4d90fe 1px solid; BORDER-TOP: #4d90fe 1px solid; BORDER-RIGHT: #4d90fe 1px solid
+}
+INPUT.error_tips {
+	BORDER-BOTTOM: #dd4b39 1px solid; BORDER-LEFT: #dd4b39 1px solid; BACKGROUND: #fbe3e4; BORDER-TOP: #dd4b39 1px solid; BORDER-RIGHT: #dd4b39 1px solid
+}
+TEXTAREA.error_tips {
+	BORDER-BOTTOM: #dd4b39 1px solid; BORDER-LEFT: #dd4b39 1px solid; BACKGROUND: #fbe3e4; BORDER-TOP: #dd4b39 1px solid; BORDER-RIGHT: #dd4b39 1px solid
+}
+.round_wrapper {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; BACKGROUND-COLOR: #fbfbfb; MARGIN-BOTTOM: 10px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid
+}
+.round_title {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 34px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: url("h4_bg.png")/*tpa=http://www.bangcle.com/static/images/h4_bg.png*/ repeat-x; HEIGHT: 34px; FONT-SIZE: 14px; OVERFLOW: hidden; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.index .round_wrapper {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; BACKGROUND-COLOR: #fff; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; border-radius: 3px
+}
+.index .round_title {
+	BORDER-BOTTOM: #d5d5d5 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 35px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: 35px; FONT-SIZE: 16px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+.round_main {
+	HEIGHT: 190px; OVERFLOW: hidden
+}
+.f_r {
+	FLOAT: right
+}
+.algin_r {
+	TEXT-ALIGN: right
+}
+.algin_c {
+	TEXT-ALIGN: center
+}
+.news {
+	WIDTH: 350px; FLOAT: right
+}
+.news UL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; PADDING-TOP: 6px
+}
+.news LI {
+	BORDER-BOTTOM: #d5d5d5 1px dashed; PADDING-BOTTOM: 0px; LINE-HEIGHT: 28px; PADDING-LEFT: 14px; PADDING-RIGHT: 4px; BACKGROUND: url("dots.png")/*tpa=http://www.bangcle.com/static/images/dots.png*/ no-repeat 4px center; HEIGHT: 28px; PADDING-TOP: 0px
+}
+.news LI SPAN {
+	FLOAT: right; COLOR: #999
+}
+.mytestin {
+	WIDTH: 616px; FLOAT: left
+}
+.mytestin UL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 6px; WIDTH: 440px; PADDING-RIGHT: 6px; FLOAT: right; PADDING-TOP: 6px
+}
+.mytestin LI {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; PADDING-TOP: 6px
+}
+.mytestin LI STRONG {
+	WIDTH: 68px; DISPLAY: inline-block; FONT-WEIGHT: bold
+}
+.mytestin LI .icon_pay {
+	PADDING-LEFT: 20px; DISPLAY: inline-block; BACKGROUND: url("icon_pay.png")/*tpa=http://www.bangcle.com/static/images/icon_pay.png*/ no-repeat left center; MARGIN-LEFT: 20px
+}
+.mytestin LI .icon_edit {
+	PADDING-LEFT: 20px; DISPLAY: inline-block; BACKGROUND: url("icon_edit.png")/*tpa=http://www.bangcle.com/static/images/icon_edit.png*/ no-repeat left center; MARGIN-RIGHT: 20px
+}
+.mytestin .face_pic {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 10px
+}
+.mytestin .face_pic IMG {
+	DISPLAY: block
+}
+.yunceshi {
+	BACKGROUND-COLOR: #ffffff; CLEAR: both
+}
+.yunceshi .round_title {
+	PADDING-RIGHT: 0px
+}
+.yunceshi .round_title SPAN {
+	WIDTH: 107px; BACKGROUND: url("yunceshi_bt.png")/*tpa=http://www.bangcle.com/static/images/yunceshi_bt.png*/ no-repeat; FLOAT: right; HEIGHT: 34px
+}
+.yunceshi .round_title SPAN.um {
+	WIDTH: 174px; BACKGROUND: url("um_yunceshi_bt.png")/*tpa=http://www.bangcle.com/static/images/um_yunceshi_bt.png*/ no-repeat
+}
+.yunceshi .round_title SPAN:hover {
+	BACKGROUND-POSITION: right top
+}
+.yunceshi .round_title SPAN A {
+	LINE-HEIGHT: 33px; PADDING-LEFT: 35px; DISPLAY: block; HEIGHT: 34px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.yunceshi .round_title .add A {
+	BACKGROUND: url("icon_add.png")/*tpa=http://www.bangcle.com/static/images/icon_add.png*/ no-repeat 14px center
+}
+.yunceshi .round_title .icon_tiyan A {
+	BACKGROUND: url("icon_tiyan.png")/*tpa=http://www.bangcle.com/static/images/icon_tiyan.png*/ no-repeat 14px center
+}
+.yunceshi .round_title .icon_fabu A {
+	BACKGROUND: url("icon_fabu.png")/*tpa=http://www.bangcle.com/static/images/icon_fabu.png*/ no-repeat 14px center
+}
+.yunceshi .round_main {
+	HEIGHT: 268px
+}
+.yunceshi .round_main .no_data {
+	PADDING-TOP: 120px
+}
+.yunceshi .round_main .report_list .no_data {
+	PADDING-TOP: 100px
+}
+.report_list {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; WIDTH: 465px; PADDING-RIGHT: 10px; HEIGHT: 268px; PADDING-TOP: 0px
+}
+.report_list H4 {
+	LINE-HEIGHT: 25px; HEIGHT: 25px; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.report_list H4 A {
+	FONT-FAMILY: "����"; FLOAT: right; FONT-SIZE: 12px
+}
+.report_list TABLE {
+	WIDTH: 100%; TABLE-LAYOUT: fixed
+}
+.report_list TH {
+	BORDER-BOTTOM: #ccc 2px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 34px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; HEIGHT: 34px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.report_list TD {
+	BORDER-BOTTOM: #d5d5d5 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 32px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; HEIGHT: 32px; PADDING-TOP: 0px
+}
+.report_list TBODY TR.bg {
+	BACKGROUND-COLOR: #fbfbfb
+}
+.report_list TBODY TR:hover {
+	BACKGROUND-COLOR: #f2f4f6
+}
+.ing_list {
+	BORDER-LEFT: #d5d5d5 1px dashed; PADDING-LEFT: 15px; FLOAT: right
+}
+
+
+.jiagu_list {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; WIDTH: 950px; PADDING-RIGHT: 10px; HEIGHT: 268px; PADDING-TOP: 0px
+}
+.jiagu_list H4 {
+	LINE-HEIGHT: 25px; HEIGHT: 25px; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.jiagu_list H4 A {
+	FONT-FAMILY: "����"; FLOAT: right; FONT-SIZE: 12px
+}
+.jiagu_list TABLE {
+	WIDTH: 100%; TABLE-LAYOUT: fixed
+}
+.jiagu_list TH {
+	BORDER-BOTTOM: #ccc 2px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 34px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; HEIGHT: 34px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.jiagu_list TD {
+	BORDER-BOTTOM: #d5d5d5 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 32px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; HEIGHT: 32px; PADDING-TOP: 0px
+}
+.jiagu_list TBODY TR.bg {
+	BACKGROUND-COLOR: #fbfbfb
+}
+.jiagu_list TBODY TR:hover {
+	BACKGROUND-COLOR: #f2f4f6
+}
+
+
+.order_tips LI {
+	LINE-HEIGHT: 24px; HEIGHT: 24px
+}
+.page_title {
+	BORDER-BOTTOM: #ccc 1px solid; LINE-HEIGHT: 34px; MARGIN-BOTTOM: 10px; HEIGHT: 34px; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.page_title STRONG {
+	FONT-WEIGHT: bold
+}
+.page_title STRONG SPAN {
+	FONT-WEIGHT: normal
+}
+.page_title .fr {
+	FLOAT: right
+}
+.page_title .fr .bt {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 24px; MARGIN-TOP: 4px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: block; BACKGROUND: url("button_bg4-1.png")/*tpa=http://www.bangcle.com/static/images/button_bg4.png*/ repeat-x; FLOAT: left; HEIGHT: 24px; COLOR: #333; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; TEXT-DECORATION: none; PADDING-TOP: 0px; border-radius: 3px 3px 3px 3px
+}
+.page_title .fr .bt:hover {
+	opacity: 0.8
+}
+.page_title .fr .icon {
+	PADDING-LEFT: 20px; MARGIN-LEFT: 8px; FONT-WEIGHT: normal
+}
+.page_title .fr .report {
+	BACKGROUND: url("icon_report.png")/*tpa=http://www.bangcle.com/static/images/icon_report.png*/ no-repeat left center
+}
+.page_title .fr .download {
+	BACKGROUND: url("icon_download.png")/*tpa=http://www.bangcle.com/static/images/icon_download.png*/ no-repeat left center
+}
+.page_title .fr .bt_cjcs {
+	TEXT-INDENT: -999em; WIDTH: 78px; DISPLAY: block; BACKGROUND: url("private_clouds_bt1.png")/*tpa=http://www.bangcle.com/static/images/private_clouds_bt1.png*/ no-repeat; FLOAT: left; HEIGHT: 26px; MARGIN-RIGHT: 4px
+}
+.page_title .fr .bt_yqyh {
+	TEXT-INDENT: -999em; WIDTH: 78px; DISPLAY: block; BACKGROUND: url("private_clouds_bt1.png")/*tpa=http://www.bangcle.com/static/images/private_clouds_bt1.png*/ no-repeat left bottom; FLOAT: left; HEIGHT: 26px
+}
+.page_title .qq {
+	PADDING-LEFT: 20px; BACKGROUND: url("icon_open_login.png")/*tpa=http://www.bangcle.com/static/images/icon_open_login.png*/ no-repeat 0px -42px; FLOAT: right; MARGIN-LEFT: 10px
+}
+.section {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; ZOOM: 1; MARGIN-BOTTOM: 10px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid
+}
+.section .title {
+	BORDER-BOTTOM: #d5d5d5 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 34px; BACKGROUND-COLOR: #f6f6f6; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; HEIGHT: 34px; BORDER-TOP: #ffffff 1px solid; PADDING-TOP: 0px
+}
+.section .title STRONG {
+	FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.section .title SELECT {
+	PADDING-BOTTOM: 3px; MARGIN-TOP: 4px; PADDING-LEFT: 3px; WIDTH: 100px; PADDING-RIGHT: 3px; PADDING-TOP: 3px
+}
+.section .title .search {
+	WIDTH: 188px; FLOAT: right; PADDING-TOP: 4px
+}
+.section .title .search .input_text {
+	LINE-HEIGHT: 20px; PADDING-LEFT: 20px; WIDTH: 160px; PADDING-RIGHT: 4px; BACKGROUND: url("icon_search.png")/*tpa=http://www.bangcle.com/static/images/icon_search.png*/ #fff no-repeat 4px 5px; HEIGHT: 20px
+}
+.main {
+	PADDING-BOTTOM: 0px; MIN-HEIGHT: 415px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; ZOOM: 1; PADDING-TOP: 0px
+}
+.main TABLE {
+	WIDTH: 100%; MARGIN-BOTTOM: 10px
+}
+.main TABLE INPUT {
+	VERTICAL-ALIGN: middle; MARGIN-RIGHT: 4px; _margin-top: -2px
+}
+.main TH {
+	BORDER-BOTTOM: #ccc 2px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 34px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; HEIGHT: 34px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.main TD {
+	BORDER-BOTTOM: #d5d5d5 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 32px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; HEIGHT: 32px; PADDING-TOP: 0px
+}
+.main TBODY TR.bg {
+	BACKGROUND-COLOR: #fbfbfb
+}
+.main TBODY TR:hover {
+	BACKGROUND-COLOR: #f2f4f6
+}
+.main TBODY TR.cur {
+	BACKGROUND-COLOR: #ffffcc
+}
+.main TD .icon {
+	PADDING-LEFT: 20px; MARGIN-LEFT: 8px
+}
+.main TD .return {
+	BACKGROUND: url("icon_return.png")/*tpa=http://www.bangcle.com/static/images/icon_return.png*/ no-repeat left center
+}
+.main TD .cancel {
+	BACKGROUND: url("icon_del.png")/*tpa=http://www.bangcle.com/static/images/icon_del.png*/ no-repeat left center
+}
+.main TD .report {
+	BACKGROUND: url("icon_report.png")/*tpa=http://www.bangcle.com/static/images/icon_report.png*/ no-repeat left center
+}
+.main TD .detail {
+	BACKGROUND: url("icon_detail.png")/*tpa=http://www.bangcle.com/static/images/icon_detail.png*/ no-repeat left center
+}
+.main TD .log {
+	BACKGROUND: url("icon_download.png")/*tpa=http://www.bangcle.com/static/images/icon_download.png*/ no-repeat left center
+}
+.list_foot {
+	HEIGHT: 36px
+}
+.list_set A {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 24px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: block; BACKGROUND: url("button_bg4-1.png")/*tpa=http://www.bangcle.com/static/images/button_bg4.png*/ repeat-x; FLOAT: left; HEIGHT: 24px; COLOR: #333; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; TEXT-DECORATION: none; PADDING-TOP: 0px; border-radius: 3px 3px 3px 3px
+}
+.list_set A:hover {
+	opacity: 0.8
+}
+.page_nav {
+	TEXT-ALIGN: right; MARGIN-BOTTOM: 10px; FLOAT: right; VERTICAL-ALIGN: middle
+}
+.page_nav STRONG {
+	FONT-WEIGHT: normal
+}
+.page_nav STRONG A {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 24px; BACKGROUND-COLOR: #fff; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: inline-block; HEIGHT: 24px; VERTICAL-ALIGN: middle; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; TEXT-DECORATION: none; PADDING-TOP: 0px; border-radius: 3px 3px 3px 3px
+}
+.page_nav STRONG A:hover {
+	BACKGROUND-COLOR: #fbfbfb
+}
+.page_nav STRONG .cPageNum {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 24px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: inline-block; HEIGHT: 24px; FONT-SIZE: 16px; VERTICAL-ALIGN: middle; CURSOR: default; PADDING-TOP: 0px
+}
+.radio_show {
+	MARGIN: 0px auto 10px; HEIGHT: 30px
+}
+.radio_show SPAN {
+	BORDER-BOTTOM: #bec6cc 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #bec6cc 1px solid; LINE-HEIGHT: 28px; WIDTH: 160px; DISPLAY: block; BACKGROUND: url("radio_bg.png")/*tpa=http://www.bangcle.com/static/images/radio_bg.png*/ repeat-x left bottom; FLOAT: left; HEIGHT: 28px; COLOR: #555555; MARGIN-LEFT: -1px; OVERFLOW: hidden; BORDER-TOP: #bec6cc 1px solid; CURSOR: pointer; BORDER-RIGHT: #bec6cc 1px solid; text-shadow: 0 1px 0 #FFFFFF
+}
+.radio_show .cur {
+	BACKGROUND-POSITION: left top; CURSOR: default
+}
+.radio_show .first {
+	border-radius: 3px 0 0 3px
+}
+.radio_show .end {
+	border-radius: 0 3px 3px 0
+}
+.flow_step {
+	HEIGHT: 32px; OVERFLOW: hidden
+}
+.flow_step LI {
+	TEXT-ALIGN: center; LINE-HEIGHT: 32px; PADDING-LEFT: 15px; BACKGROUND: url("flow_step_bg.png")/*tpa=http://www.bangcle.com/static/images/flow_step_bg.png*/ #e6e6e6 no-repeat 0px -64px; FLOAT: left; HEIGHT: 32px; COLOR: #666666; FONT-SIZE: 14px
+}
+.flow_step .step_1 {
+	BACKGROUND-IMAGE: none
+}
+.section_wp {
+	WIDTH: 980px; MARGIN-BOTTOM: 10px
+}
+.section_title {
+	HEIGHT: 36px
+}
+.section_title A {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 34px; PADDING-LEFT: 1.5em; PADDING-RIGHT: 1.5em; DISPLAY: inline-block; HEIGHT: 34px; FONT-SIZE: 14px; BORDER-TOP: #d5d5d5 1px solid; FONT-WEIGHT: bold; MARGIN-RIGHT: 5px; BORDER-RIGHT: #d5d5d5 1px solid; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.section_title .cur {
+	BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #fbfbfb; HEIGHT: 35px; COLOR: #555555
+}
+.section_main {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 20px; BACKGROUND-COLOR: #fbfbfb; MARGIN-TOP: -1px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 20px
+}
+.section_main H4 {
+	BORDER-BOTTOM: #d5d5d5 2px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 30px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; HEIGHT: 30px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.section_main H4 A {
+	PADDING-LEFT: 20px; BACKGROUND: url("icon_edit.png")/*tpa=http://www.bangcle.com/static/images/icon_edit.png*/ no-repeat left center; FLOAT: right; FONT-WEIGHT: normal
+}
+.copylink {
+	WIDTH: 430px; HEIGHT: 27px; PADDING-TOP: 3px
+}
+.copylink STRONG {
+	LINE-HEIGHT: 27px; FLOAT: left; HEIGHT: 27px; FONT-WEIGHT: normal; MARGIN-RIGHT: 8px
+}
+.copylink .input_text {
+	LINE-HEIGHT: 21px; WIDTH: 260px; FLOAT: left; HEIGHT: 21px; COLOR: #666666
+}
+.copylink A {
+	TEXT-ALIGN: center; LINE-HEIGHT: 27px; WIDTH: 80px; DISPLAY: block; BACKGROUND: url("button_bg5.png")/*tpa=http://www.bangcle.com/static/images/button_bg5.png*/ no-repeat; FLOAT: right; HEIGHT: 27px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.exchange {
+	BORDER-BOTTOM: #bfde84 1px solid; BORDER-LEFT: #bfde84 1px solid; PADDING-BOTTOM: 8px; LINE-HEIGHT: 20px; BACKGROUND-COLOR: #edfbd8; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; BORDER-TOP: #bfde84 1px solid; BORDER-RIGHT: #bfde84 1px solid; PADDING-TOP: 0px; border-radius: 3px 3px 3px 3px
+}
+.exchange H4 {
+	BORDER-BOTTOM: #bfde84 1px solid; LINE-HEIGHT: 30px; MARGIN-BOTTOM: 10px; HEIGHT: 30px; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.exchange H4 SPAN {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; FONT-SIZE: 12px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+.exchange_m {
+	LINE-HEIGHT: 27px; WIDTH: 250px; HEIGHT: 27px
+}
+.exchange_m STRONG {
+	LINE-HEIGHT: 27px; FLOAT: left; HEIGHT: 27px; FONT-WEIGHT: normal; MARGIN-RIGHT: 8px
+}
+.exchange_m .input_text {
+	LINE-HEIGHT: 21px; WIDTH: 60px; FLOAT: left; HEIGHT: 21px; MARGIN-RIGHT: 4px
+}
+.exchange_m A {
+	TEXT-ALIGN: center; LINE-HEIGHT: 27px; WIDTH: 80px; DISPLAY: block; BACKGROUND: url("button_bg5.png")/*tpa=http://www.bangcle.com/static/images/button_bg5.png*/ no-repeat; FLOAT: right; HEIGHT: 27px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.manage_open_id {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 400px; PADDING-TOP: 20px
+}
+.manage_open_id LI {
+	BORDER-BOTTOM: #d5d5d5 1px dashed; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 22px; PADDING-TOP: 10px
+}
+.manage_open_id LI STRONG {
+	PADDING-LEFT: 20px
+}
+.manage_open_id LI .icon_tc {
+	BACKGROUND: url("icon_open_login.png")/*tpa=http://www.bangcle.com/static/images/icon_open_login.png*/ no-repeat 0px -26px
+}
+.manage_open_id LI .icon_sina {
+	BACKGROUND: url("icon_open_login.png")/*tpa=http://www.bangcle.com/static/images/icon_open_login.png*/ no-repeat 0px -102px
+}
+.manage_open_id LI .icon_zone {
+	BACKGROUND: url("icon_qzone.png")/*tpa=http://www.bangcle.com/static/images/icon_qzone.png*/ no-repeat
+}
+.manage_open_id LI SPAN {
+	COLOR: #666; MARGIN-LEFT: 8px
+}
+.manage_open_id LI A {
+	DISPLAY: inline; FLOAT: right
+}
+.manage_open_id LI A.bd {
+	TEXT-ALIGN: center; LINE-HEIGHT: 27px; MARGIN-TOP: -2px; WIDTH: 80px; DISPLAY: block; BACKGROUND: url("button_bg5.png")/*tpa=http://www.bangcle.com/static/images/button_bg5.png*/ no-repeat; HEIGHT: 27px; TEXT-DECORATION: none
+}
+.bill_wp .message STRONG {
+	FONT-WEIGHT: bold
+}
+.bill_wp .message LI {
+	PADDING-TOP: 4px
+}
+.bill_wp .form_ul LI {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 180px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.bill_wp .form_ul LI STRONG {
+	WIDTH: 160px
+}
+.bill_wp .form_ul .bill_number EM {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #bd0a01; FONT-SIZE: 18px; PADDING-TOP: 0px
+}
+.bill_wp .form_ul .bill_type {
+	LINE-HEIGHT: 35px
+}
+.bill_wp .form_ul .bill_type LABEL {
+	MARGIN-RIGHT: 10px
+}
+.bill_wp .form_ul SELECT {
+	WIDTH: 100px; MARGIN-RIGHT: 8px
+}
+.bill_wp .form_ul .text {
+	LINE-HEIGHT: 30px
+}
+.certificate_title {
+	TEXT-ALIGN: center; LINE-HEIGHT: 80px; BACKGROUND-COLOR: #5b95d5; MARGIN-BOTTOM: 10px; HEIGHT: 80px; COLOR: #fff; FONT-SIZE: 36px; text-shadow: 0 1px 0 #555555
+}
+.app_info {
+	WIDTH: 430px; MARGIN-BOTTOM: 10px; FLOAT: right; HEIGHT: 440px
+}
+.app_info H3 {
+	BORDER-BOTTOM: #dbecec 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 35px; BACKGROUND-COLOR: #f3f8ff; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; MARGIN-BOTTOM: 10px; HEIGHT: 35px; FONT-SIZE: 14px; BORDER-TOP: #458fce 2px solid; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.app_info TEXTAREA {
+	LINE-HEIGHT: 20px; WIDTH: 424px; HEIGHT: 80px
+}
+.zb_btn {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 8px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 8px
+}
+.app_jj {
+	BORDER-BOTTOM: #d5d5d5 1px solid; POSITION: relative; BORDER-LEFT: #d5d5d5 1px solid; BACKGROUND-COLOR: #fbfbfb; HEIGHT: 258px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; border-radius: 5px
+}
+.app_jj H4 {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 35px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; HEIGHT: 35px; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.app_jj P {
+	PADDING-BOTTOM: 0px; TEXT-INDENT: 2em; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+}
+.app_jj .download {
+	POSITION: absolute; TEXT-INDENT: -999em; WIDTH: 164px; BOTTOM: 25px; DISPLAY: block; BACKGROUND: url("button_download.png")/*tpa=http://www.bangcle.com/static/images/button_download.png*/ no-repeat; HEIGHT: 48px; LEFT: 138px
+}
+.app_certificate {
+	WIDTH: 320px; MARGIN-BOTTOM: 10px; FLOAT: left; HEIGHT: 440px
+}
+.certificate_mobile {
+	CLEAR: both
+}
+.certificate_mobile_title {
+	BORDER-BOTTOM: #dbecec 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 35px; BACKGROUND-COLOR: #f3f8ff; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; HEIGHT: 35px; FONT-SIZE: 14px; BORDER-TOP: #458fce 2px solid; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.certificate_mobile .mobile_box {
+	WIDTH: 229px
+}
+.form_ul {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 20px
+}
+.form_ul LI {
+	POSITION: relative; PADDING-BOTTOM: 10px; MIN-HEIGHT: 40px; PADDING-LEFT: 120px; PADDING-RIGHT: 0px; ZOOM: 1; PADDING-TOP: 0px
+}
+.form_ul LI STRONG {
+	POSITION: absolute; TEXT-ALIGN: right; LINE-HEIGHT: 30px; WIDTH: 100px; PADDING-RIGHT: 10px; HEIGHT: 30px; TOP: 0px; FONT-WEIGHT: bold; LEFT: 0px
+}
+.form_ul LI .not_null {
+	BACKGROUND: url("icon_red.png")/*tpa=http://www.bangcle.com/static/images/icon_red.png*/ no-repeat right center
+}
+.form_ul LI .input_text {
+	WIDTH: 318px
+}
+.form_ul LI TEXTAREA {
+	LINE-HEIGHT: 20px;WIDTH: 318px; HEIGHT: 78px;
+}
+.form_ul LI.home_show {
+	MIN-HEIGHT: 25px; PADDING-TOP: 10px
+}
+.form_ul LI.home_show INPUT {
+	VERTICAL-ALIGN: -2px; MARGIN-RIGHT: 4px
+}
+.form_ul LI SPAN.attention {
+	DISPLAY: block; WORD-WRAP: break-word; COLOR: #999; PADDING-TOP: 4px
+}
+.form_ul LI SPAN.error_tips {
+	POSITION: absolute; LINE-HEIGHT: 30px; DISPLAY: block; HEIGHT: 30px; COLOR: #c00; TOP: 0px; LEFT: 452px
+}
+.form_ul LI.button {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 32px; PADDING-LEFT: 120px; PADDING-RIGHT: 0px; HEIGHT: 32px; FONT-SIZE: 14px; PADDING-TOP: 10px
+}
+LI.check_code .input_text {
+	WIDTH: 100px !important; FLOAT: left; MARGIN-RIGHT: 8px
+}
+LI.check_code A {
+	DISPLAY: inline-block; TEXT-DECORATION: none
+}
+LI.check_code A IMG {
+	VERTICAL-ALIGN: top; MARGIN-RIGHT: 4px
+}
+LI.check_code A EM {
+	VERTICAL-ALIGN: -5px; CURSOR: pointer
+}
+.create {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 20px; BACKGROUND-COLOR: #fbfbfb; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; MARGIN-BOTTOM: 10px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 20px
+}
+.create .flow_step {
+	MARGIN-BOTTOM: 40px
+}
+.create .flow_step .cols3 LI {
+	WIDTH: 297px
+}
+.create .form_ul {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 184px; PADDING-RIGHT: 0px; PADDING-TOP: 20px
+}
+.create .radio_show {
+	WIDTH: 325px
+}
+.swfupload {
+	BACKGROUND: url("upload_bt-1.png")/*tpa=http://www.bangcle.com/static/images/upload_bt.png*/ no-repeat; VERTICAL-ALIGN: -10px
+}
+.create .file_bt:hover {
+	opacity: 0.8
+}
+.create .test_type DL {
+	WIDTH: 160px; FLOAT: left
+}
+.create .test_type DT {
+	LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+.create .test_type DD {
+	LINE-HEIGHT: 24px; HEIGHT: 24px
+}
+.create .test_type DD INPUT {
+	VERTICAL-ALIGN: -2px; MARGIN-RIGHT: 4px
+}
+.brand_banner {
+	TEXT-ALIGN: center; LINE-HEIGHT: 100px; BACKGROUND-COLOR: #5b95d5; MARGIN-BOTTOM: 10px; HEIGHT: 100px; COLOR: #fff; FONT-SIZE: 36px; text-shadow: 0 1px 0 #555555
+}
+.brand_list LI {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; FLOAT: left; PADDING-TOP: 0px
+}
+.brand_list LI A {
+	BORDER-BOTTOM: #d5d5d5 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #d5d5d5 1px solid; BACKGROUND-COLOR: #fff; WIDTH: 153px; DISPLAY: block; HEIGHT: 78px; FONT-SIZE: 14px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; TEXT-DECORATION: none; PADDING-TOP: 4px
+}
+.brand_list LI A:hover {
+	BORDER-BOTTOM: #5b95d5 1px solid; BORDER-LEFT: #5b95d5 1px solid; BORDER-TOP: #5b95d5 1px solid; BORDER-RIGHT: #5b95d5 1px solid
+}
+.brand_list LI IMG {
+	MARGIN: 0px auto; DISPLAY: block
+}
+.brand_title {
+	LINE-HEIGHT: 50px; MARGIN-BOTTOM: 10px; HEIGHT: 50px
+}
+.brand_title .return {
+	FLOAT: right
+}
+.brand_title .return A {
+	BORDER-BOTTOM: #d5d5d5 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #d5d5d5 1px solid; LINE-HEIGHT: 1.5; BACKGROUND-COLOR: #fbfbfb; WIDTH: 80px; DISPLAY: block; HEIGHT: 44px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; TEXT-DECORATION: none; PADDING-TOP: 6px; border-radius: 3px 3px 3px 3px
+}
+.brand_title .return A:hover {
+	BORDER-BOTTOM-COLOR: #ecf5ff; BACKGROUND-COLOR: #f8fdff; BORDER-TOP-COLOR: #ecf5ff; BORDER-RIGHT-COLOR: #ecf5ff; BORDER-LEFT-COLOR: #ecf5ff
+}
+.brand_title H2 {
+	FLOAT: left; FONT-SIZE: 24px
+}
+.brand_title H2 IMG {
+	DISPLAY: block; FLOAT: left; MARGIN-RIGHT: 10px
+}
+.brand_title H2 SPAN {
+	COLOR: #999; FONT-SIZE: 18px
+}
+.brand_title .tips {
+	BORDER-BOTTOM: #ddd 1px solid; POSITION: relative; BORDER-LEFT: #ddd 1px solid; PADDING-BOTTOM: 4px; LINE-HEIGHT: 1.5; BACKGROUND-COLOR: #fbfbfb; PADDING-LEFT: 6px; WIDTH: 460px; PADDING-RIGHT: 6px; FLOAT: left; HEIGHT: 40px; COLOR: #666; FONT-SIZE: 12px; BORDER-TOP: #ddd 1px solid; BORDER-RIGHT: #ddd 1px solid; PADDING-TOP: 4px; LEFT: 10px; border-radius: 3px 3px 3px 3px
+}
+.brand_title .tips I {
+	POSITION: absolute; WIDTH: 7px; DISPLAY: block; BACKGROUND: url("icon_v.png")/*tpa=http://www.bangcle.com/static/images/icon_v.png*/ no-repeat; HEIGHT: 12px; TOP: 19px; LEFT: -7px
+}
+.vip {
+	MARGIN-BOTTOM: 10px; HEIGHT: 100px
+}
+.vip SPAN {
+	TEXT-ALIGN: center; LINE-HEIGHT: 100px; BACKGROUND-COLOR: #5b95d5; WIDTH: 237px; FLOAT: left; HEIGHT: 100px; COLOR: #fff; MARGIN-LEFT: 10px; FONT-SIZE: 24px; text-shadow: 0 1px 0 #555555
+}
+.selected_area {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #fbfbfb; ZOOM: 1; MARGIN-BOTTOM: 10px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid
+}
+.selected_area H3 {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 34px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: url("h4_bg.png")/*tpa=http://www.bangcle.com/static/images/h4_bg.png*/ repeat-x; HEIGHT: 34px; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.selected_area UL {
+	MARGIN-BOTTOM: 10px
+}
+.selected_area LI {
+	BORDER-BOTTOM: #d5d5d5 1px dotted; POSITION: relative; PADDING-BOTTOM: 5px; PADDING-LEFT: 110px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.selected_area LI STRONG {
+	POSITION: absolute; TEXT-ALIGN: right; LINE-HEIGHT: 30px; WIDTH: 100px; HEIGHT: 30px; TOP: 5px; FONT-WEIGHT: bold; LEFT: 0px
+}
+.selected_area LI DL {
+	ZOOM: 1
+}
+.selected_area LI DT {
+	LINE-HEIGHT: 30px; PADDING-RIGHT: 16px; WHITE-SPACE: nowrap; FLOAT: left; HEIGHT: 30px
+}
+.selected_area LI DD {
+	LINE-HEIGHT: 30px; PADDING-RIGHT: 16px; WHITE-SPACE: nowrap; FLOAT: left; HEIGHT: 30px
+}
+.selected_area LI INPUT {
+	VERTICAL-ALIGN: -2px
+}
+.selected_area LI.end {
+	BORDER-BOTTOM-STYLE: solid
+}
+.selected_area BUTTON {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; LINE-HEIGHT: 42px; TEXT-INDENT: -999em; MARGIN: 0px auto; WIDTH: 220px; DISPLAY: block; BACKGROUND: url("button_begin.png")/*tpa=http://www.bangcle.com/static/images/button_begin.png*/ no-repeat left bottom; HEIGHT: 42px; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.selected_area BUTTON:hover {
+	BACKGROUND-POSITION: left top
+}
+.mobile_list .round_title EM {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 2px; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #f00; FONT-SIZE: 16px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+.mobile_list .round_title SPAN {
+	FONT-WEIGHT: normal
+}
+.mobile_list .round_title SPAN LABEL {
+	MARGIN-LEFT: 10px
+}
+.mobile_list .round_title SELECT {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; PADDING-TOP: 1px
+}
+.mobile_list INPUT {
+	VERTICAL-ALIGN: -2px
+}
+.mobile_list .round_main {
+	PADDING-BOTTOM: 10px; HEIGHT: auto
+}
+.mobile_list TABLE {
+	WIDTH: 100%
+}
+.mobile_list TD {
+	BORDER-BOTTOM: #d5d5d5 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; HEIGHT: 30px; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 0px
+}
+.mobile_box_m {
+	PADDING-BOTTOM: 10px
+}
+.mobile_box {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #fff; MARGIN: 10px 0px 0px 10px; PADDING-LEFT: 5px; WIDTH: 220px; PADDING-RIGHT: 5px; ZOOM: 1; DISPLAY: inline; FLOAT: left; HEIGHT: 168px; OVERFLOW: hidden; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 5px; border-radius: 3px 3px 3px 3px
+}
+.mobile_box H3 {
+	BORDER-BOTTOM: #d5d5d5 1px solid; LINE-HEIGHT: 30px; MARGIN-BOTTOM: 10px; HEIGHT: 30px; FONT-SIZE: 14px; OVERFLOW: hidden
+}
+.mobile_box H3 INPUT {
+	MARGIN-TOP: 8px
+}
+.mobile_box DL IMG {
+	FLOAT: left; MARGIN-RIGHT: 10px
+}
+.mobile_box DD {
+	LINE-HEIGHT: 24px; HEIGHT: 24px
+}
+.mobile_list .page_nav {
+	PADDING-RIGHT: 10px
+}
+.pay {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 40px; BACKGROUND-COLOR: #fbfbfb; MIN-HEIGHT: 350px; PADDING-LEFT: 40px; PADDING-RIGHT: 40px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 40px
+}
+.pay .order_table {
+	WIDTH: 100%
+}
+.pay .order_table TH {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #e5e9ed; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; HEIGHT: 32px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 0px
+}
+.pay .order_table TD {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fff; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; HEIGHT: 32px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 0px
+}
+.pay UL {
+	PADDING-TOP: 20px
+}
+.pay LI {
+	POSITION: relative; PADDING-BOTTOM: 15px; LINE-HEIGHT: 30px; PADDING-LEFT: 120px; HEIGHT: 30px
+}
+.pay LI STRONG {
+	POSITION: absolute; TEXT-ALIGN: right; LINE-HEIGHT: 30px; WIDTH: 100px; PADDING-RIGHT: 20px; HEIGHT: 30px; TOP: 0px; FONT-WEIGHT: bold; LEFT: 0px
+}
+.pay LI SPAN {
+	PADDING-RIGHT: 20px; FLOAT: left
+}
+.pay LI SPAN LABEL {
+	CURSOR: pointer; MARGIN-RIGHT: 4px
+}
+.pay LI SPAN LABEL INPUT {
+	MARGIN-RIGHT: 4px
+}
+.pay LI .input_text {
+	TEXT-ALIGN: center; LINE-HEIGHT: 20px; WIDTH: 40px; HEIGHT: 20px; MARGIN-RIGHT: 4px
+}
+.pay LI EM {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #f60; FONT-SIZE: 24px
+}
+.pay LI.button {
+	PADDING-TOP: 20px
+}
+.button BUTTON {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; LINE-HEIGHT: 30px; DISPLAY: block; FLOAT: left; HEIGHT: 30px; COLOR: #fff; BORDER-TOP: medium none; FONT-WEIGHT: bold; MARGIN-RIGHT: 2em; BORDER-RIGHT: medium none; text-shadow: 0 1px 0 #555555
+}
+.button .blue_button {
+	WIDTH: 75px; BACKGROUND: url("blue_button_bg.png")/*tpa=http://www.bangcle.com/static/images/blue_button_bg.png*/ no-repeat
+}
+.button .blue_button:hover {
+	BACKGROUND-POSITION: left bottom
+}
+.button .blue_button2 {
+	WIDTH: 100px; BACKGROUND: url("blue_button_bg2.png")/*tpa=http://www.bangcle.com/static/images/blue_button_bg2.png*/ no-repeat
+}
+.button .blue_button2:hover {
+	BACKGROUND-POSITION: left bottom
+}
+.button .red_button {
+	WIDTH: 75px; BACKGROUND: url("red_button_bg.png")/*tpa=http://www.bangcle.com/static/images/red_button_bg.png*/ no-repeat
+}
+.button .red_button:hover {
+	BACKGROUND-POSITION: left bottom
+}
+.button .login_button {
+	TEXT-INDENT: -999em; WIDTH: 146px; BACKGROUND: url("button_login.png")/*tpa=http://www.bangcle.com/static/images/button_login.png*/ no-repeat left bottom; HEIGHT: 42px
+}
+.button .login_button:hover {
+	BACKGROUND-POSITION: left top
+}
+.no_data {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 80px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; COLOR: #999; FONT-SIZE: 18px; PADDING-TOP: 80px
+}
+.page_title .qq {
+	PADDING-LEFT: 20px; BACKGROUND: url("icon_open_login.png")/*tpa=http://www.bangcle.com/static/images/icon_open_login.png*/ no-repeat 0px -42px; FLOAT: right
+}
+.title_tabs {
+	PADDING-LEFT: 1px; HEIGHT: 33px; TOP: 0px; _padding-left: 2px; _top: 1px
+}
+.title_tabs SPAN {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; BACKGROUND-COLOR: #fbfbfb; DISPLAY: block; FLOAT: left; HEIGHT: 32px; MARGIN-LEFT: -1px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid
+}
+.title_tabs SPAN A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 32px; PADDING-LEFT: 16px; PADDING-RIGHT: 16px; DISPLAY: block; FLOAT: left; HEIGHT: 32px; COLOR: #333; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.title_tabs SPAN.cur {
+	BORDER-BOTTOM-COLOR: #fff; BACKGROUND-COLOR: #fff
+}
+.czk_wp .main {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid
+}
+.czk_w {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.czk_w .czk {
+	PADDING-BOTTOM: 40px; PADDING-LEFT: 100px; WIDTH: 480px; PADDING-RIGHT: 0px; HEIGHT: 50px; PADDING-TOP: 50px
+}
+.czk_w .czk DIV {
+	MARGIN-BOTTOM: 15px
+}
+.czk_w .czk LABEL {
+	LINE-HEIGHT: 30px; PADDING-RIGHT: 4px; FLOAT: left; HEIGHT: 30px; FONT-WEIGHT: bold
+}
+.czk_w .czk .input_text {
+	WIDTH: 260px
+}
+.czk_w .czk BUTTON {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; TEXT-INDENT: -999em; WIDTH: 86px; DISPLAY: block; BACKGROUND: url("button_ljcz.png")/*tpa=http://www.bangcle.com/static/images/button_ljcz.png*/ no-repeat; FLOAT: right; HEIGHT: 31px; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.czk_w .czk BUTTON:hover {
+	opacity: 0.8
+}
+.hint {
+	BORDER-BOTTOM: #f5ecbc 1px solid; BORDER-LEFT: #f5ecbc 1px solid; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #fffddf; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; MARGIN-BOTTOM: 10px; BORDER-TOP: #f5ecbc 1px solid; BORDER-RIGHT: #f5ecbc 1px solid; PADDING-TOP: 10px
+}
+.hint STRONG {
+	DISPLAY: block; MARGIN-BOTTOM: 8px; COLOR: #d4a639; FONT-WEIGHT: bold
+}
+.hint UL {
+	PADDING-BOTTOM: 1em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.hint LI {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 24px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 24px; PADDING-TOP: 0px
+}
+.hint .zhu {
+	COLOR: #999
+}
+.login_wp .content {
+	PADDING-BOTTOM: 40px
+}
+.login_wp .logo {
+	PADDING-BOTTOM: 20px; LINE-HEIGHT: 32px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 32px; COLOR: #666; FONT-SIZE: 24px; PADDING-TOP: 20px
+}
+.login_wp .logo A {
+	TEXT-INDENT: -999em; WIDTH: 202px; DISPLAY: block; BACKGROUND: url("logo.png")/*tpa=http://www.bangcle.com/static/images/logo.png*/ no-repeat; FLOAT: left; HEIGHT: 32px; MARGIN-RIGHT: 10px
+}
+.login_banner {
+	WIDTH: 540px; BACKGROUND: url("login_banner.png")/*tpa=http://www.bangcle.com/static/images/login_banner.png*/ no-repeat left center; FLOAT: left; HEIGHT: 400px; _background: none
+}
+.login_mod {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #fff; PADDING-LEFT: 0px; WIDTH: 380px; PADDING-RIGHT: 0px; FLOAT: right; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 10px
+}
+.login_mod H3 {
+	LINE-HEIGHT: 35px; MARGIN: 0px 10px 10px; HEIGHT: 35px; COLOR: #1369ac; FONT-SIZE: 24px
+}
+.login_mod H3 SPAN {
+	PADDING-LEFT: 10px; COLOR: #ccc; FONT-SIZE: 12px
+}
+.login_mod .message {
+	MARGIN: 0px 10px
+}
+.login_mod UL {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+.login_mod LI {
+	POSITION: relative; PADDING-BOTTOM: 10px; MIN-HEIGHT: 40px; PADDING-LEFT: 80px; PADDING-RIGHT: 0px; ZOOM: 1; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.login_mod LI STRONG {
+	POSITION: absolute; TEXT-ALIGN: right; LINE-HEIGHT: 30px; WIDTH: 60px; HEIGHT: 30px; TOP: 0px; FONT-WEIGHT: bold; LEFT: 0px
+}
+.login_mod LI .input_text {
+	WIDTH: 238px
+}
+.login_mod LI.auto_login {
+	PADDING-BOTTOM: 0px; MIN-HEIGHT: 22px
+}
+.login_mod LI.auto_login INPUT {
+	VERTICAL-ALIGN: -2px; MARGIN-RIGHT: 2px
+}
+.login_mod LI.button {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 42px; PADDING-LEFT: 80px; PADDING-RIGHT: 0px; HEIGHT: 42px; PADDING-TOP: 10px
+}
+.login_mod LI.button BUTTON {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; TEXT-INDENT: -999em; WIDTH: 146px; DISPLAY: block; BACKGROUND: url("button_login.png")/*tpa=http://www.bangcle.com/static/images/button_login.png*/ no-repeat left bottom; FLOAT: left; HEIGHT: 42px; BORDER-TOP: medium none; MARGIN-RIGHT: 2em; BORDER-RIGHT: medium none
+}
+.login_mod LI.button BUTTON:hover {
+	BACKGROUND-POSITION: left top
+}
+.login_other {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; WIDTH: 358px; PADDING-RIGHT: 10px; HEIGHT: 75px; BORDER-TOP: #d5d5d5 1px dashed; PADDING-TOP: 0px
+}
+.login_other STRONG {
+	LINE-HEIGHT: 35px; DISPLAY: block; HEIGHT: 35px
+}
+.login_other A {
+	LINE-HEIGHT: 32px; PADDING-LEFT: 40px; DISPLAY: block; FLOAT: left; HEIGHT: 32px; MARGIN-RIGHT: 20px
+}
+.login_other A.login_qq {
+	BACKGROUND: url("open_login-1.png")/*tpa=http://www.bangcle.com/static/images/open_login.png*/ no-repeat 0px -84px
+}
+.login_other A.login_sina {
+	BACKGROUND: url("open_login-1.png")/*tpa=http://www.bangcle.com/static/images/open_login.png*/ no-repeat 0px 0px
+}
+.login_other A.login_tc {
+	BACKGROUND: url("open_login-1.png")/*tpa=http://www.bangcle.com/static/images/open_login.png*/ no-repeat 0px -42px
+}
+.register_wp .content {
+	PADDING-BOTTOM: 40px
+}
+.register_wp .logo {
+	PADDING-BOTTOM: 20px; LINE-HEIGHT: 32px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 32px; COLOR: #666; FONT-SIZE: 24px; PADDING-TOP: 20px
+}
+.register_wp .logo A {
+	TEXT-INDENT: -999em; WIDTH: 202px; DISPLAY: block; BACKGROUND: url("logo.png")/*tpa=http://www.bangcle.com/static/images/logo.png*/ no-repeat; FLOAT: left; HEIGHT: 32px; MARGIN-RIGHT: 10px
+}
+.register_mod {
+	POSITION: relative; BACKGROUND-COLOR: #f5f5f5; WIDTH: 680px; HEIGHT: 580px
+}
+.register_hd {
+	BORDER-BOTTOM: #d5d5d5 1px solid; POSITION: absolute; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #fff; PADDING-LEFT: 15px; WIDTH: 648px; PADDING-RIGHT: 15px; HEIGHT: 558px; BORDER-TOP: #d5d5d5 1px solid; TOP: -4px; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 10px; LEFT: -4px
+}
+.register_hd H3 {
+	LINE-HEIGHT: 35px; MARGIN-BOTTOM: 10px; HEIGHT: 35px; COLOR: #1369ac; FONT-SIZE: 24px
+}
+.register_hd H3 SPAN {
+	PADDING-LEFT: 10px; COLOR: #ccc; FONT-SIZE: 14px
+}
+.register_hd .flow_step {
+	MARGIN-BOTTOM: 40px
+}
+.register_hd .flow_step .cols3 LI {
+	WIDTH: 201px; COLOR: #999
+}
+.register_hd .flow_step .cols3 .cur {
+	COLOR: #3164af; FONT-WEIGHT: bold
+}
+.register_hd LI.reg_agreement INPUT {
+	VERTICAL-ALIGN: -2px; MARGIN-RIGHT: 2px
+}
+.register_hd LI.button {
+	LINE-HEIGHT: 42px; HEIGHT: 42px
+}
+.register_hd LI.button BUTTON {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; TEXT-INDENT: -999em; WIDTH: 146px; DISPLAY: block; BACKGROUND: url("button_register.png")/*tpa=http://www.bangcle.com/static/images/button_register.png*/ no-repeat left bottom; FLOAT: left; HEIGHT: 42px; BORDER-TOP: medium none; MARGIN-RIGHT: 2em; BORDER-RIGHT: medium none
+}
+.register_hd LI.button .next_bt {
+	BACKGROUND: url("button_next.png")/*tpa=http://www.bangcle.com/static/images/button_next.png*/ no-repeat left bottom
+}
+.register_hd LI.button .save_bt {
+	BACKGROUND: url("button_save.png")/*tpa=http://www.bangcle.com/static/images/button_save.png*/ no-repeat left bottom
+}
+.register_hd LI.button .activate_bt {
+	BACKGROUND: url("button_activate.png")/*tpa=http://www.bangcle.com/static/images/button_activate.png*/ no-repeat left bottom
+}
+.register_hd LI.button .submit_bt {
+	BACKGROUND: url("button_submit-1.png")/*tpa=http://www.bangcle.com/static/images/button_submit.png*/ no-repeat left bottom
+}
+.register_hd LI.button .bd_bt {
+	BACKGROUND: url("button_bd.png")/*tpa=http://www.bangcle.com/static/images/button_bd.png*/ no-repeat left bottom
+}
+.register_hd LI.button BUTTON:hover {
+	BACKGROUND-POSITION: left top
+}
+.register_activate {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 40px; PADDING-RIGHT: 40px; FONT-SIZE: 14px; PADDING-TOP: 100px
+}
+.register_activate P {
+	MARGIN-BOTTOM: 8px
+}
+.register_activate .success.message {
+	PADDING-LEFT: 60px; BACKGROUND: url("icon_1.png")/*tpa=http://www.bangcle.com/static/images/icon_1.png*/ #edfbd8 no-repeat 8px center
+}
+.umeng_info {
+	BORDER-BOTTOM: #d5d5d5 1px solid
+}
+.umeng_info .box {
+	PADDING-BOTTOM: 12px; PADDING-LEFT: 12px; WIDTH: 465px; PADDING-RIGHT: 12px; PADDING-TOP: 0px
+}
+.umeng_info .box H5 {
+	LINE-HEIGHT: 40px; PADDING-LEFT: 30px; BACKGROUND: url("ym_icon.png")/*tpa=http://www.bangcle.com/static/images/ym_icon.png*/ no-repeat left center; HEIGHT: 40px; FONT-SIZE: 16px; FONT-WEIGHT: bold
+}
+.umeng_info .box H5 A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 30px; BACKGROUND-COLOR: #4996e6; MARGIN-TOP: 5px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; FLOAT: right; HEIGHT: 30px; COLOR: #fff; FONT-SIZE: 14px; TEXT-DECORATION: none; PADDING-TOP: 0px; border-radius: 5px
+}
+.umeng_info .free {
+	BORDER-LEFT: #d5d5d5 1px dashed; PADDING-LEFT: 13px; FLOAT: right
+}
+.umeng_info .free H5 A {
+	BACKGROUND-COLOR: #d5d5d5; COLOR: #333
+}
+.umeng_info .box UL {
+	PADDING-BOTTOM: 8px; BACKGROUND-COLOR: #e6edf6; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; PADDING-TOP: 8px; border-radius: 10px
+}
+.umeng_info .box LI {
+	LINE-HEIGHT: 24px; HEIGHT: 24px
+}
+.umeng_info .box LI SPAN {
+	WIDTH: 50%; DISPLAY: inline-block
+}
+.umeng_info .box LI I {
+	FONT-STYLE: normal; COLOR: #f60
+}
+.private_clouds .page_title {
+	PADDING-TOP: 10px
+}
+.private_clouds .no_data STRONG {
+	DISPLAY: block; MARGIN-BOTTOM: 40px; FONT-SIZE: 32px
+}
+.private_clouds .no_data BUTTON {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; TEXT-INDENT: -999em; MARGIN: 0px auto; WIDTH: 156px; DISPLAY: block; BACKGROUND: url("private_clouds_bt2.png")/*tpa=http://www.bangcle.com/static/images/private_clouds_bt2.png*/ no-repeat; HEIGHT: 50px; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.private_clouds .no_data BUTTON:hover {
+	opacity: 0.8
+}
+.private_clouds TD .run {
+	BACKGROUND: url("icon_y.png")/*tpa=http://www.bangcle.com/static/images/icon_y.png*/ no-repeat left center; COLOR: #090; MARGIN-LEFT: 0px
+}
+.private_clouds TD .stop {
+	BACKGROUND: url("icon_n.png")/*tpa=http://www.bangcle.com/static/images/icon_n.png*/ no-repeat left center; COLOR: #999; MARGIN-LEFT: 0px
+}
+.private_clouds TD .invite {
+	BACKGROUND: url("icon_user.png")/*tpa=http://www.bangcle.com/static/images/icon_user.png*/ no-repeat
+}
+.private_clouds TD .del {
+	BACKGROUND: url("icon_del.png")/*tpa=http://www.bangcle.com/static/images/icon_del.png*/ no-repeat; COLOR: #bd0a01
+}
+.private_clouds TD .edit {
+	BACKGROUND: url("icon_edit.png")/*tpa=http://www.bangcle.com/static/images/icon_edit.png*/ no-repeat
+}
+.private_clouds TD .bt_cjcs {
+	TEXT-ALIGN: left; TEXT-INDENT: -999em; MARGIN: 3px 0px 0px 8px; WIDTH: 78px; DISPLAY: block; BACKGROUND: url("private_clouds_bt1.png")/*tpa=http://www.bangcle.com/static/images/private_clouds_bt1.png*/ no-repeat; FLOAT: right; HEIGHT: 26px
+}
+.jhcg {
+	BORDER-BOTTOM: #d5d5d5 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 100px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; MARGIN-BOTTOM: 10px; FONT-SIZE: 14px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 100px; border-radius: 5px
+}
+.jhcg .message_success {
+	PADDING-LEFT: 40px; DISPLAY: inline-block; BACKGROUND: url("icon_1.png")/*tpa=http://www.bangcle.com/static/images/icon_1.png*/ no-repeat; COLOR: #080; FONT-SIZE: 16px
+}
+.jhcg .message_error {
+	PADDING-LEFT: 40px; DISPLAY: inline-block; BACKGROUND: url("icon_2.png")/*tpa=http://www.bangcle.com/static/images/icon_2.png*/ no-repeat; COLOR: #f00; FONT-SIZE: 16px
+}
+.jhcg STRONG {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 20px
+}
+.jhcg .button_a {
+	BORDER-BOTTOM: #3188c7 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #3188c7 1px solid; LINE-HEIGHT: 35px; BACKGROUND-COLOR: #1d8bd8; MARGIN: 0px auto; WIDTH: 120px; DISPLAY: block; HEIGHT: 35px; COLOR: #fff; FONT-SIZE: 16px; BORDER-TOP: #3188c7 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #3188c7 1px solid; TEXT-DECORATION: none; border-radius: 3px
+}
+.jhcg .button_a:hover {
+	opacity: 0.8
+}
+.jhcg .button_a:active {
+	BACKGROUND-COLOR: #1669ab
+}
+.footer {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 10px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: 980px; PADDING-RIGHT: 0px; BORDER-TOP: #d5d5d5 1px dotted; PADDING-TOP: 10px
+}
+.qq_online{
+	BACKGROUND: url("bt_qq.png")/*tpa=http://www.bangcle.com/static/images/bt_qq.png*/ no-repeat center center;
+	display:block;
+	height: 42px;
+    margin-top: 4px;
+    width: 149px;
+}
+.qq_online:active{
+	BACKGROUND: url("bt_qq_down.png")/*tpa=http://www.bangcle.com/static/images/bt_qq_down.png*/ no-repeat center center;
+}
+.v-sup-menu{
+	background: #EF3300;
+	color:#FFF;
+	vertical-align: super;
+	font-size: 80%;
+	padding:0px 2px;
+	margin:0px 2px;
+}
+.user_edit_tip{
+	background:url("tip_bg.png")/*tpa=http://www.bangcle.com/static/images/examine/tip_bg.png*/ no-repeat center center;
+	width:650px;
+	height:57px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:57px;
+	font-size:15px;
+}
+
+.examine_tip{
+	background:url("tip_edit_bg.png")/*tpa=http://www.bangcle.com/static/images/examine/tip_edit_bg.png*/ no-repeat center center;
+	width:537px;
+	height:50px;
+	vertical-align:middle;
+	font-size: 15px;
+    padding: 19px;
+    color:#990000;
+}
+.btn_examine{
+	background:url("btn_examine.png")/*tpa=http://www.bangcle.com/static/images/examine/btn_examine.png*/ no-repeat center center;
+	width:133px;
+	height:51px;
+	float:right;
+	margin-right:20px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:51px;
+	font-size:16px;
+	color:black;
+}
+
+.header_dzone {
+	PADDING-BOTTOM: 20px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: 980px; PADDING-RIGHT: 0px; HEIGHT: 44px; PADDING-TOP: 20px
+}
+.header_dzone .menu {
+	FLOAT: right
+}
+.header_dzone .menu LI {
+	Z-INDEX: 9; POSITION: relative; LINE-HEIGHT: 32px; DISPLAY: inline; FLOAT: left; HEIGHT: 32px; MARGIN-LEFT: 32px
+}
+.header_dzone .menu LI A {
+	COLOR: #333; FONT-SIZE: 16px; TEXT-DECORATION: none
+}
+.header_dzone .menu LI UL {
+	POSITION: absolute; BACKGROUND-COLOR: #fff; WIDTH: 80px; DISPLAY: none; MARGIN-LEFT: -40px; TOP: 32px; PADDING-TOP: 4px; LEFT: 50%
+}
+.header_dzone .menu LI LI {
+	MARGIN: 0px; FLOAT: none; HEIGHT: auto
+}
+.header_dzone .menu LI LI A {
+	LINE-HEIGHT: 30px; BACKGROUND-COLOR: #1d8bd8; PADDING-LEFT: 10px; DISPLAY: block; HEIGHT: 30px; COLOR: #fff; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.header_dzone .menu LI LI A:hover {
+	opacity: 0.8
+}
+.header_dzone .menu .drop_downs_mouseover UL {
+	DISPLAY: block
+}
+.mask{Z-INDEX: 98;POSITION: fixed;WIDTH: 100%;BACKGROUND: url("opacity_bg.png")/*tpa=http://www.bangcle.com/static/images_v2.10/opacity_bg.png*/;HEIGHT: 100%;TOP: 0px;LEFT: 0px;}
+.multi_channel_list{
+position: fixed;
+margin-top: -260px;
+margin-left: -490px;
+left: 50%;
+top: 50%;
+z-index: 99;
+width: 980px;
+height: 416px;
+}
+.multi_download_btn{
+margin-left:10px;display:inline-block;background:#4287cc;width:150px;height:30px;text-align:center;font-size:16px;color:white;
+}
+/*------------------safecheck virus -------------------------------*/
+.safecheck{
+position: fixed;
+margin-top: -150px;
+margin-left: -200px;
+left: 50%;
+top: 50%;
+z-index: 99;
+width: 400px;
+height: 250px;
+background-color: #fbfbfb;
+}
+.safecheck_title{
+	height:35px;
+	background:#468fcf;
+	line-height:35px;
+	vertical-align:middle;
+	font-size:16px;
+	color:#fff;
+	padding-left:20px;
+}
+.safecheck_subtitle {
+	display:inline-block;
+	padding-left:30px;
+	padding-top:20px;
+	color:#000;
+	font-size:12px;
+	text-decoration:none;
+}
+.safecheck_content{
+	padding:10px 30px 0 30px;height:100px;overflow:auto;
+}
+.safecheck a{
+height:30px;width:100px;background:#1e9705;display:inline-block;line-height:30px;vertical-align:middle;color:white;text-decoration:none;
+}
+/*------------------safecheck virus end-------------------------------*/
+
+/*------------------explain -------------------------------*/
+.explain{
+position: fixed;
+margin-top: -150px;
+margin-left: -350px;
+left: 50%;
+top: 50%;
+z-index: 99;
+width: 700px;
+height: 300px;
+background-color: #fbfbfb;
+}
+.explain_title{height:35px;	background:#468fcf;line-height:35px;vertical-align:middle;font-size:16px;	color:#fff;	padding-left:20px;}
+#button button{
+height:30px;width:100px;background:#1e9705;display:inline-block;line-height:30px;vertical-align:middle;color:white;text-decoration:none;border:0px;
+}
+/*------------------explain end-------------------------------*/
